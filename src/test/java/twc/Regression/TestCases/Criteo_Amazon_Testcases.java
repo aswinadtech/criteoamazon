@@ -788,7 +788,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
-				CharlesFunctions.archive_folder("Charles");
+				
 			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
 		}
 
