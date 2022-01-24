@@ -1,0 +1,2999 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1641482700526" stop="1641482725994" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1641482700753" stop="1641482703834" status="passed">
+            <name>Validate_Amazon_SDK_adsdk_parameter</name>
+            <description type="text">Validating 'adsdk' parameter of Amazon aax call </description>
+            <steps>
+                <step start="1641482700780" stop="1641482700781" status="passed">
+                    <name>logStep[****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call]</name>
+                    <title>****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482700809" stop="1641482700809" status="passed">
+                    <name>logStep[File Name is : Charles20220106102419.chlsx]</name>
+                    <title>File Name is : Charles20220106102419.chlsx</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482701419" stop="1641482701419" status="passed">
+                    <name>logStep[Successfully Generated XML file from Charles session file!!]</name>
+                    <title>Successfully Generated XML file from Charles session file!!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703162" stop="1641482703162" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703194" stop="1641482703194" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session]</name>
+                    <title>aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703806" stop="1641482703806" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703832" stop="1641482703832" status="passed">
+                    <name>logStep[Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0]</name>
+                    <title>Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Amazon_SDK_adsdk_parameter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482700753" stop="1641482703834" status="passed">
+            <name>Validate_Amazon_SDK_adsdk_parameter</name>
+            <description type="text">Validating 'adsdk' parameter of Amazon aax call </description>
+            <steps>
+                <step start="1641482700780" stop="1641482700781" status="passed">
+                    <name>logStep[****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call]</name>
+                    <title>****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482700809" stop="1641482700809" status="passed">
+                    <name>logStep[File Name is : Charles20220106102419.chlsx]</name>
+                    <title>File Name is : Charles20220106102419.chlsx</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482701419" stop="1641482701419" status="passed">
+                    <name>logStep[Successfully Generated XML file from Charles session file!!]</name>
+                    <title>Successfully Generated XML file from Charles session file!!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703162" stop="1641482703162" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703194" stop="1641482703194" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session]</name>
+                    <title>aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703806" stop="1641482703806" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482703832" stop="1641482703832" status="passed">
+                    <name>logStep[Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0]</name>
+                    <title>Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Amazon_SDK_adsdk_parameter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482703840" stop="1641482704448" status="passed">
+            <name>Verifying_amazon_slotId_for_AlertsCenter</name>
+            <description type="text">Verifying amazon slot Id for alerts center Page</description>
+            <steps>
+                <step start="1641482703841" stop="1641482703841" status="passed">
+                    <name>logStep[****** Alert Center ad test case Started]</name>
+                    <title>****** Alert Center ad test case Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704448" stop="1641482704448" status="passed">
+                    <name>logStep[slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present]</name>
+                    <title>slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704448" stop="1641482704448" status="passed">
+                    <name>logStep[MyAlerts : AAX slot id Verification is successful]</name>
+                    <title>MyAlerts : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verifying_amazon_slotId_for_AlertsCenter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482703840" stop="1641482704448" status="passed">
+            <name>Verifying_amazon_slotId_for_AlertsCenter</name>
+            <description type="text">Verifying amazon slot Id for alerts center Page</description>
+            <steps>
+                <step start="1641482703841" stop="1641482703841" status="passed">
+                    <name>logStep[****** Alert Center ad test case Started]</name>
+                    <title>****** Alert Center ad test case Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704448" stop="1641482704448" status="passed">
+                    <name>logStep[slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present]</name>
+                    <title>slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704448" stop="1641482704448" status="passed">
+                    <name>logStep[MyAlerts : AAX slot id Verification is successful]</name>
+                    <title>MyAlerts : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verifying_amazon_slotId_for_AlertsCenter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482704451" stop="1641482704778" status="passed">
+            <name>Verify_amazon_aaxSlot_feed1_adCall</name>
+            <description type="text">Verifying amazon Slot Id for feed1 prerol ad call</description>
+            <steps>
+                <step start="1641482704451" stop="1641482704451" status="passed">
+                    <name>logStep[****** amazon aax feed1 preload ad call validation Started]</name>
+                    <title>****** amazon aax feed1 preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704777" stop="1641482704777" status="passed">
+                    <name>logStep[slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present]</name>
+                    <title>slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704778" stop="1641482704778" status="passed">
+                    <name>logStep[Feed1 : AAX slot id Verification is successful]</name>
+                    <title>Feed1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed1_adCall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482704451" stop="1641482704778" status="passed">
+            <name>Verify_amazon_aaxSlot_feed1_adCall</name>
+            <description type="text">Verifying amazon Slot Id for feed1 prerol ad call</description>
+            <steps>
+                <step start="1641482704451" stop="1641482704451" status="passed">
+                    <name>logStep[****** amazon aax feed1 preload ad call validation Started]</name>
+                    <title>****** amazon aax feed1 preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704777" stop="1641482704777" status="passed">
+                    <name>logStep[slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present]</name>
+                    <title>slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482704778" stop="1641482704778" status="passed">
+                    <name>logStep[Feed1 : AAX slot id Verification is successful]</name>
+                    <title>Feed1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed1_adCall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482704781" stop="1641482705108" status="passed">
+            <name>Verify_amazon_aaxSlot_feed2_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed2 ad call</description>
+            <steps>
+                <step start="1641482704781" stop="1641482704781" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed2]</name>
+                    <title> Verifying amazon aax slot Id for feed2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705108" stop="1641482705108" status="passed">
+                    <name>logStep[slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present]</name>
+                    <title>slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705108" stop="1641482705108" status="passed">
+                    <name>logStep[Feed2 : AAX slot id Verification is successful]</name>
+                    <title>Feed2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed2_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482704781" stop="1641482705108" status="passed">
+            <name>Verify_amazon_aaxSlot_feed2_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed2 ad call</description>
+            <steps>
+                <step start="1641482704781" stop="1641482704781" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed2]</name>
+                    <title> Verifying amazon aax slot Id for feed2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705108" stop="1641482705108" status="passed">
+                    <name>logStep[slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present]</name>
+                    <title>slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705108" stop="1641482705108" status="passed">
+                    <name>logStep[Feed2 : AAX slot id Verification is successful]</name>
+                    <title>Feed2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed2_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482705110" stop="1641482705560" status="passed">
+            <name>Smoke_Test_amazon_aaxSlot_feed3_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed3 ad call</description>
+            <steps>
+                <step start="1641482705111" stop="1641482705111" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed3]</name>
+                    <title> Verifying amazon aax slot Id for feed3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705560" stop="1641482705560" status="passed">
+                    <name>logStep[slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present]</name>
+                    <title>slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705560" stop="1641482705560" status="passed">
+                    <name>logStep[Feed3 : AAX slot id Verification is successful]</name>
+                    <title>Feed3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aaxSlot_feed3_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482705110" stop="1641482705560" status="passed">
+            <name>Smoke_Test_amazon_aaxSlot_feed3_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed3 ad call</description>
+            <steps>
+                <step start="1641482705111" stop="1641482705111" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed3]</name>
+                    <title> Verifying amazon aax slot Id for feed3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705560" stop="1641482705560" status="passed">
+                    <name>logStep[slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present]</name>
+                    <title>slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705560" stop="1641482705560" status="passed">
+                    <name>logStep[Feed3 : AAX slot id Verification is successful]</name>
+                    <title>Feed3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aaxSlot_feed3_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482705562" stop="1641482705938" status="passed">
+            <name>Verify_amazon_aaxSlot_feed4_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641482705563" stop="1641482705563" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705937" stop="1641482705937" status="passed">
+                    <name>logStep[slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present]</name>
+                    <title>slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705937" stop="1641482705937" status="passed">
+                    <name>logStep[Feed4 : AAX slot id Verification is successful]</name>
+                    <title>Feed4 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed4_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482705562" stop="1641482705938" status="passed">
+            <name>Verify_amazon_aaxSlot_feed4_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641482705563" stop="1641482705563" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705937" stop="1641482705937" status="passed">
+                    <name>logStep[slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present]</name>
+                    <title>slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482705937" stop="1641482705937" status="passed">
+                    <name>logStep[Feed4 : AAX slot id Verification is successful]</name>
+                    <title>Feed4 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed4_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482705941" stop="1641482706311" status="passed">
+            <name>Verify_amazon_aaxSlot_feed5_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641482705941" stop="1641482705941" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482706310" stop="1641482706310" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482706311" stop="1641482706311" status="passed">
+                    <name>logStep[Feed5 : AAX slot id Verification is successful]</name>
+                    <title>Feed5 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed5_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482705941" stop="1641482706311" status="passed">
+            <name>Verify_amazon_aaxSlot_feed5_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641482705941" stop="1641482705941" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482706310" stop="1641482706310" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482706311" stop="1641482706311" status="passed">
+                    <name>logStep[Feed5 : AAX slot id Verification is successful]</name>
+                    <title>Feed5 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed5_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482706313" stop="1641482707038" status="passed">
+            <name>Verify_amazon_aax_mapsdetails_adcall</name>
+            <description type="text">Verifying amazon Slot Id for maps details preroll ad cal</description>
+            <steps>
+                <step start="1641482706314" stop="1641482706314" status="passed">
+                    <name>logStep[ Verifying preload amazon aax for  map details]</name>
+                    <title> Verifying preload amazon aax for  map details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707038" stop="1641482707038" status="passed">
+                    <name>logStep[slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present]</name>
+                    <title>slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707038" stop="1641482707038" status="passed">
+                    <name>logStep[Map : AAX slot id Verification is successful]</name>
+                    <title>Map : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_mapsdetails_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482706313" stop="1641482707038" status="passed">
+            <name>Verify_amazon_aax_mapsdetails_adcall</name>
+            <description type="text">Verifying amazon Slot Id for maps details preroll ad cal</description>
+            <steps>
+                <step start="1641482706314" stop="1641482706314" status="passed">
+                    <name>logStep[ Verifying preload amazon aax for  map details]</name>
+                    <title> Verifying preload amazon aax for  map details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707038" stop="1641482707038" status="passed">
+                    <name>logStep[slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present]</name>
+                    <title>slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707038" stop="1641482707038" status="passed">
+                    <name>logStep[Map : AAX slot id Verification is successful]</name>
+                    <title>Map : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_mapsdetails_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482707040" stop="1641482707409" status="passed">
+            <name>Smoke_Test_amazon_aax_today_deatailcard</name>
+            <description type="text">Verifying amazon aax for today details card</description>
+            <steps>
+                <step start="1641482707409" stop="1641482707409" status="passed">
+                    <name>logStep[slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present]</name>
+                    <title>slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707409" stop="1641482707409" status="passed">
+                    <name>logStep[Today : AAX slot id Verification is successful]</name>
+                    <title>Today : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_today_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482707040" stop="1641482707409" status="passed">
+            <name>Smoke_Test_amazon_aax_today_deatailcard</name>
+            <description type="text">Verifying amazon aax for today details card</description>
+            <steps>
+                <step start="1641482707409" stop="1641482707409" status="passed">
+                    <name>logStep[slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present]</name>
+                    <title>slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707409" stop="1641482707409" status="passed">
+                    <name>logStep[Today : AAX slot id Verification is successful]</name>
+                    <title>Today : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_today_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482707411" stop="1641482707899" status="passed">
+            <name>Smoke_Test_amazon_aax_Airquality_deatailcard</name>
+            <description type="text">Verifying amazon aax for AQ details page</description>
+            <steps>
+                <step start="1641482707898" stop="1641482707898" status="passed">
+                    <name>logStep[slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present]</name>
+                    <title>slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707899" stop="1641482707899" status="passed">
+                    <name>logStep[Air Quality(Content) : AAX slot id Verification is successful]</name>
+                    <title>Air Quality(Content) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Airquality_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482707411" stop="1641482707899" status="passed">
+            <name>Smoke_Test_amazon_aax_Airquality_deatailcard</name>
+            <description type="text">Verifying amazon aax for AQ details page</description>
+            <steps>
+                <step start="1641482707898" stop="1641482707898" status="passed">
+                    <name>logStep[slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present]</name>
+                    <title>slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482707899" stop="1641482707899" status="passed">
+                    <name>logStep[Air Quality(Content) : AAX slot id Verification is successful]</name>
+                    <title>Air Quality(Content) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Airquality_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482707901" stop="1641482708614" status="passed">
+            <name>Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id for Running Bigbanner ad</description>
+            <steps>
+                <step start="1641482708614" stop="1641482708614" status="passed">
+                    <name>logStep[slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present]</name>
+                    <title>slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482708614" stop="1641482708614" status="passed">
+                    <name>logStep[Health(goRun) : AAX slot id Verification is successful]</name>
+                    <title>Health(goRun) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482707901" stop="1641482708614" status="passed">
+            <name>Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id for Running Bigbanner ad</description>
+            <steps>
+                <step start="1641482708614" stop="1641482708614" status="passed">
+                    <name>logStep[slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present]</name>
+                    <title>slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482708614" stop="1641482708614" status="passed">
+                    <name>logStep[Health(goRun) : AAX slot id Verification is successful]</name>
+                    <title>Health(goRun) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482708616" stop="1641482708974" status="passed">
+            <name>Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id  for Boat&amp;Beach Bigbanner ad</description>
+            <steps>
+                <step start="1641482708974" stop="1641482708974" status="passed">
+                    <name>logStep[slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present]</name>
+                    <title>slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482708974" stop="1641482708974" status="passed">
+                    <name>logStep[Health(boatAndBeach) : AAX slot id Verification is successful]</name>
+                    <title>Health(boatAndBeach) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482708616" stop="1641482708974" status="passed">
+            <name>Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id  for Boat&amp;Beach Bigbanner ad</description>
+            <steps>
+                <step start="1641482708974" stop="1641482708974" status="passed">
+                    <name>logStep[slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present]</name>
+                    <title>slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482708974" stop="1641482708974" status="passed">
+                    <name>logStep[Health(boatAndBeach) : AAX slot id Verification is successful]</name>
+                    <title>Health(boatAndBeach) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482708976" stop="1641482709341" status="passed">
+            <name>Verify_amazon_SlotId_outdoor_details</name>
+            <description type="text">Verifying amazon slot Id for Outdoor details page</description>
+            <steps>
+                <step start="1641482709340" stop="1641482709340" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482709340" stop="1641482709340" status="passed">
+                    <name>logStep[SeasonalHub(Details) : AAX slot id Verification is successful]</name>
+                    <title>SeasonalHub(Details) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_outdoor_details"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482708976" stop="1641482709341" status="passed">
+            <name>Verify_amazon_SlotId_outdoor_details</name>
+            <description type="text">Verifying amazon slot Id for Outdoor details page</description>
+            <steps>
+                <step start="1641482709340" stop="1641482709340" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482709340" stop="1641482709340" status="passed">
+                    <name>logStep[SeasonalHub(Details) : AAX slot id Verification is successful]</name>
+                    <title>SeasonalHub(Details) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_outdoor_details"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482709342" stop="1641482709700" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly Details preload ad call</description>
+            <steps>
+                <step start="1641482709343" stop="1641482709343" status="passed">
+                    <name>logStep[****** amazon aax Hourly Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482709699" stop="1641482709699" status="passed">
+                    <name>logStep[slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present]</name>
+                    <title>slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482709699" stop="1641482709699" status="passed">
+                    <name>logStep[Hourly : AAX slot id Verification is successful]</name>
+                    <title>Hourly : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482709342" stop="1641482709700" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly Details preload ad call</description>
+            <steps>
+                <step start="1641482709343" stop="1641482709343" status="passed">
+                    <name>logStep[****** amazon aax Hourly Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482709699" stop="1641482709699" status="passed">
+                    <name>logStep[slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present]</name>
+                    <title>slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482709699" stop="1641482709699" status="passed">
+                    <name>logStep[Hourly : AAX slot id Verification is successful]</name>
+                    <title>Hourly : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482709702" stop="1641482710030" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly1_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly1 Details preload ad call</description>
+            <steps>
+                <step start="1641482709702" stop="1641482709702" status="passed">
+                    <name>logStep[****** amazon aax Hourly1 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly1 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710030" stop="1641482710030" status="passed">
+                    <name>logStep[slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present]</name>
+                    <title>slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710030" stop="1641482710030" status="passed">
+                    <name>logStep[Hourly1 : AAX slot id Verification is successful]</name>
+                    <title>Hourly1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly1_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482709702" stop="1641482710030" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly1_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly1 Details preload ad call</description>
+            <steps>
+                <step start="1641482709702" stop="1641482709702" status="passed">
+                    <name>logStep[****** amazon aax Hourly1 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly1 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710030" stop="1641482710030" status="passed">
+                    <name>logStep[slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present]</name>
+                    <title>slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710030" stop="1641482710030" status="passed">
+                    <name>logStep[Hourly1 : AAX slot id Verification is successful]</name>
+                    <title>Hourly1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly1_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482710032" stop="1641482710348" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly2_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly2 Details preload ad call</description>
+            <steps>
+                <step start="1641482710032" stop="1641482710032" status="passed">
+                    <name>logStep[****** amazon aax Hourly2 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly2 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710348" stop="1641482710348" status="passed">
+                    <name>logStep[slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present]</name>
+                    <title>slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710348" stop="1641482710348" status="passed">
+                    <name>logStep[Hourly2 : AAX slot id Verification is successful]</name>
+                    <title>Hourly2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly2_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482710032" stop="1641482710348" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly2_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly2 Details preload ad call</description>
+            <steps>
+                <step start="1641482710032" stop="1641482710032" status="passed">
+                    <name>logStep[****** amazon aax Hourly2 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly2 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710348" stop="1641482710348" status="passed">
+                    <name>logStep[slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present]</name>
+                    <title>slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710348" stop="1641482710348" status="passed">
+                    <name>logStep[Hourly2 : AAX slot id Verification is successful]</name>
+                    <title>Hourly2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly2_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482710350" stop="1641482710689" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly3_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly3 Details preload ad call</description>
+            <steps>
+                <step start="1641482710350" stop="1641482710350" status="passed">
+                    <name>logStep[****** amazon aax Hourly3 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly3 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710689" stop="1641482710689" status="passed">
+                    <name>logStep[slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present]</name>
+                    <title>slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710689" stop="1641482710689" status="passed">
+                    <name>logStep[Hourly3 : AAX slot id Verification is successful]</name>
+                    <title>Hourly3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly3_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482710350" stop="1641482710689" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly3_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly3 Details preload ad call</description>
+            <steps>
+                <step start="1641482710350" stop="1641482710350" status="passed">
+                    <name>logStep[****** amazon aax Hourly3 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly3 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710689" stop="1641482710689" status="passed">
+                    <name>logStep[slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present]</name>
+                    <title>slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482710689" stop="1641482710689" status="passed">
+                    <name>logStep[Hourly3 : AAX slot id Verification is successful]</name>
+                    <title>Hourly3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly3_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482710691" stop="1641482711535" status="passed">
+            <name>Verify_AlertCenter_ad_call_amazon_bid_id</name>
+            <description type="text">Verify AlertCenter ad call amazon bid id</description>
+            <steps>
+                <step start="1641482710691" stop="1641482710691" status="passed">
+                    <name>logStep[****** AlertCenter ad call amazon bid id validation Started]</name>
+                    <title>****** AlertCenter ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711072" stop="1641482711072" status="passed">
+                    <name>logStep[[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw, IkkqKn2UEA47IsddkD0_gqEAAAF-LbdzVwEAAA-qAslRnPI]]</name>
+                    <title>[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw, IkkqKn2UEA47IsddkD0_gqEAAAF-LbdzVwEAAA-qAslRnPI]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711534" stop="1641482711534" status="passed">
+                    <name>logStep[[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw]]</name>
+                    <title>[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711535" stop="1641482711535" status="passed">
+                    <name>logStep[amazon aax MyAlerts call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax MyAlerts call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_AlertCenter_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482710691" stop="1641482711535" status="passed">
+            <name>Verify_AlertCenter_ad_call_amazon_bid_id</name>
+            <description type="text">Verify AlertCenter ad call amazon bid id</description>
+            <steps>
+                <step start="1641482710691" stop="1641482710691" status="passed">
+                    <name>logStep[****** AlertCenter ad call amazon bid id validation Started]</name>
+                    <title>****** AlertCenter ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711072" stop="1641482711072" status="passed">
+                    <name>logStep[[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw, IkkqKn2UEA47IsddkD0_gqEAAAF-LbdzVwEAAA-qAslRnPI]]</name>
+                    <title>[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw, IkkqKn2UEA47IsddkD0_gqEAAAF-LbdzVwEAAA-qAslRnPI]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711534" stop="1641482711534" status="passed">
+                    <name>logStep[[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw]]</name>
+                    <title>[IlWbmvbKMUdd9wj-r51kS_MAAAF-LbduogEAAA-qAtUcORw]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711535" stop="1641482711535" status="passed">
+                    <name>logStep[amazon aax MyAlerts call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax MyAlerts call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_AlertCenter_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482711538" stop="1641482711871" status="passed">
+            <name>Smoke_Test_amazon_aax_Daily_details_Day1_adcall</name>
+            <title>Verifying amazon Slot Id for daily details day1 ad calll</title>
+            <steps>
+                <step start="1641482711871" stop="1641482711871" status="passed">
+                    <name>logStep[slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present]</name>
+                    <title>slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711871" stop="1641482711871" status="passed">
+                    <name>logStep[Daily(10day) : AAX slot id Verification is successful]</name>
+                    <title>Daily(10day) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Daily_details_Day1_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482711538" stop="1641482711871" status="passed">
+            <name>Smoke_Test_amazon_aax_Daily_details_Day1_adcall</name>
+            <title>Verifying amazon Slot Id for daily details day1 ad calll</title>
+            <steps>
+                <step start="1641482711871" stop="1641482711871" status="passed">
+                    <name>logStep[slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present]</name>
+                    <title>slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482711871" stop="1641482711871" status="passed">
+                    <name>logStep[Daily(10day) : AAX slot id Verification is successful]</name>
+                    <title>Daily(10day) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Daily_details_Day1_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482711873" stop="1641482712728" status="passed">
+            <name>Verify_Feed1_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed1 ad call amazon bid id</description>
+            <steps>
+                <step start="1641482711873" stop="1641482711873" status="passed">
+                    <name>logStep[****** Feed1 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed1 ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482712309" stop="1641482712309" status="passed">
+                    <name>logStep[[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY, IuZb96iQovmF5...]</name>
+                    <title>[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY, IuZb96iQovmF5-ugAzbem...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482712728" stop="1641482712728" status="passed">
+                    <name>logStep[[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY]]</name>
+                    <title>[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482712728" stop="1641482712728" status="passed">
+                    <name>logStep[amazon aax Feed1 call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax Feed1 call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed1_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482711873" stop="1641482712728" status="passed">
+            <name>Verify_Feed1_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed1 ad call amazon bid id</description>
+            <steps>
+                <step start="1641482711873" stop="1641482711873" status="passed">
+                    <name>logStep[****** Feed1 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed1 ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482712309" stop="1641482712309" status="passed">
+                    <name>logStep[[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY, IuZb96iQovmF5...]</name>
+                    <title>[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY, IuZb96iQovmF5-ugAzbem...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482712728" stop="1641482712728" status="passed">
+                    <name>logStep[[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY]]</name>
+                    <title>[IphIIl-jIWsor5qXURpYr7YAAAF-Lbc0CgEAAA-qAgHM7xY, ItKLm7LiqHp28jCBPOWITAgAAAF-LbeK6gEAAA-qAi-uSuY]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482712728" stop="1641482712728" status="passed">
+                    <name>logStep[amazon aax Feed1 call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax Feed1 call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed1_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482712730" stop="1641482713618" status="passed">
+            <name>Verify_Feed2_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed2 ad call amazon bid id</description>
+            <steps>
+                <step start="1641482712731" stop="1641482712731" status="passed">
+                    <name>logStep[****** Feed2 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed2 ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482713152" stop="1641482713152" status="passed">
+                    <name>logStep[[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI, Ir05qys7S6h_4...]</name>
+                    <title>[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI, Ir05qys7S6h_4bIphystS...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482713617" stop="1641482713617" status="passed">
+                    <name>logStep[[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI]]</name>
+                    <title>[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482713618" stop="1641482713618" status="passed">
+                    <name>logStep[amazon aax Feed2 call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax Feed2 call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed2_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482712730" stop="1641482713618" status="passed">
+            <name>Verify_Feed2_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed2 ad call amazon bid id</description>
+            <steps>
+                <step start="1641482712731" stop="1641482712731" status="passed">
+                    <name>logStep[****** Feed2 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed2 ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482713152" stop="1641482713152" status="passed">
+                    <name>logStep[[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI, Ir05qys7S6h_4...]</name>
+                    <title>[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI, Ir05qys7S6h_4bIphystS...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482713617" stop="1641482713617" status="passed">
+                    <name>logStep[[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI]]</name>
+                    <title>[IqIWIjcp8CLelXM7j6d384MAAAF-LbdKbwEAAA-qAjlZbs0, IifILwKlYhESvUngbEXYGZUAAAF-LbeafQEAAA-qAhoG8AI]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482713618" stop="1641482713618" status="passed">
+                    <name>logStep[amazon aax Feed2 call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax Feed2 call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed2_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482713620" stop="1641482714631" status="failed">
+            <name>Verify_Feed3_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed3 ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Feed3_ad_call_amazon_bid_id(regressionTestCases.java:294)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482713620" stop="1641482713620" status="passed">
+                    <name>logStep[****** Feed3 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed3 ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482714016" stop="1641482714016" status="passed">
+                    <name>logStep[[Ikp3EJOx4JXdVckiHEnpfjoAAAF-LbkU0gEAAA-qAo3FTYw]]</name>
+                    <title>[Ikp3EJOx4JXdVckiHEnpfjoAAAF-LbkU0gEAAA-qAo3FTYw]</title>
+                </step>
+                <step start="1641482714624" stop="1641482714624" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482714624" stop="1641482714624" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hen...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hence Custo...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed3_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482713620" stop="1641482714631" status="failed">
+            <name>Verify_Feed3_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed3 ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Feed3_ad_call_amazon_bid_id(regressionTestCases.java:294)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482713620" stop="1641482713620" status="passed">
+                    <name>logStep[****** Feed3 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed3 ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482714016" stop="1641482714016" status="passed">
+                    <name>logStep[[Ikp3EJOx4JXdVckiHEnpfjoAAAF-LbkU0gEAAA-qAo3FTYw]]</name>
+                    <title>[Ikp3EJOx4JXdVckiHEnpfjoAAAF-LbkU0gEAAA-qAo3FTYw]</title>
+                </step>
+                <step start="1641482714624" stop="1641482714624" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482714624" stop="1641482714624" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hen...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hence Custo...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed3_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482714632" stop="1641482715733" status="failed">
+            <name>Verify_Feed4_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed4 ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Feed4_ad_call_amazon_bid_id(regressionTestCases.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482714633" stop="1641482714633" status="passed">
+                    <name>logStep[****** Feed4 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed4 ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482715108" stop="1641482715108" status="passed">
+                    <name>logStep[[IqqVXXRtN8KO_OqEMsV370oAAAF-LbkcmAEAAA-qAoQ5PRg, Ilu-zNSqxQUW5HNaRPgolTQAAAF-LblCJgEAAA-qAuikQKQ]]</name>
+                    <title>[IqqVXXRtN8KO_OqEMsV370oAAAF-LbkcmAEAAA-qAoQ5PRg, Ilu-zNSqxQUW5HNaRPgolTQAAAF-LblCJgEAAA-qAuikQKQ]</title>
+                </step>
+                <step start="1641482715732" stop="1641482715732" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482715732" stop="1641482715732" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hen...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hence Custo...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed4_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482714632" stop="1641482715733" status="failed">
+            <name>Verify_Feed4_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed4 ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Feed4_ad_call_amazon_bid_id(regressionTestCases.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482714633" stop="1641482714633" status="passed">
+                    <name>logStep[****** Feed4 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed4 ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482715108" stop="1641482715108" status="passed">
+                    <name>logStep[[IqqVXXRtN8KO_OqEMsV370oAAAF-LbkcmAEAAA-qAoQ5PRg, Ilu-zNSqxQUW5HNaRPgolTQAAAF-LblCJgEAAA-qAuikQKQ]]</name>
+                    <title>[IqqVXXRtN8KO_OqEMsV370oAAAF-LbkcmAEAAA-qAoQ5PRg, Ilu-zNSqxQUW5HNaRPgolTQAAAF-LblCJgEAAA-qAuikQKQ]</title>
+                </step>
+                <step start="1641482715732" stop="1641482715732" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482715732" stop="1641482715732" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hen...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_4 not contains the Custom Parameter: amzn_b, hence Custo...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed4_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482715735" stop="1641482716620" status="failed">
+            <name>Verify_Feed5_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed5 ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Feed5_ad_call_amazon_bid_id(regressionTestCases.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482715736" stop="1641482715736" status="passed">
+                    <name>logStep[****** Feed5 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed5 ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482716166" stop="1641482716166" status="passed">
+                    <name>logStep[[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]]</name>
+                    <title>[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]</title>
+                </step>
+                <step start="1641482716619" stop="1641482716619" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482716620" stop="1641482716620" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hen...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hence Custo...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed5_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482715735" stop="1641482716620" status="failed">
+            <name>Verify_Feed5_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Feed5 ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Feed5_ad_call_amazon_bid_id(regressionTestCases.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482715736" stop="1641482715736" status="passed">
+                    <name>logStep[****** Feed5 ad call amazon bid id validation Started]</name>
+                    <title>****** Feed5 ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482716166" stop="1641482716166" status="passed">
+                    <name>logStep[[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]]</name>
+                    <title>[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]</title>
+                </step>
+                <step start="1641482716619" stop="1641482716619" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482716620" stop="1641482716620" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hen...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_5 not contains the Custom Parameter: amzn_b, hence Custo...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Feed5_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482716623" stop="1641482717501" status="passed">
+            <name>Verify_Map_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Map Details ad call amazon bid id</description>
+            <steps>
+                <step start="1641482716623" stop="1641482716623" status="passed">
+                    <name>logStep[****** Map Details ad call amazon bid id validation Started]</name>
+                    <title>****** Map Details ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482717055" stop="1641482717055" status="passed">
+                    <name>logStep[[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA, IqY7qKctJg-nb_uW_hwp064AAAF-LbeeDAEAAA-qAn3ATYU]]</name>
+                    <title>[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA, IqY7qKctJg-nb_uW_hwp064AAAF-LbeeDAEAAA-qAn3ATYU]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482717501" stop="1641482717501" status="passed">
+                    <name>logStep[[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA]]</name>
+                    <title>[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482717501" stop="1641482717501" status="passed">
+                    <name>logStep[amazon aax Map call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax Map call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Map_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482716623" stop="1641482717501" status="passed">
+            <name>Verify_Map_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Map Details ad call amazon bid id</description>
+            <steps>
+                <step start="1641482716623" stop="1641482716623" status="passed">
+                    <name>logStep[****** Map Details ad call amazon bid id validation Started]</name>
+                    <title>****** Map Details ad call amazon bid id validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482717055" stop="1641482717055" status="passed">
+                    <name>logStep[[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA, IqY7qKctJg-nb_uW_hwp064AAAF-LbeeDAEAAA-qAn3ATYU]]</name>
+                    <title>[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA, IqY7qKctJg-nb_uW_hwp064AAAF-LbeeDAEAAA-qAn3ATYU]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482717501" stop="1641482717501" status="passed">
+                    <name>logStep[[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA]]</name>
+                    <title>[Iicdo6Ix6TVd3siNvjkDMhYAAAF-LbdQAwEAAA-qAtHgwPA]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641482717501" stop="1641482717501" status="passed">
+                    <name>logStep[amazon aax Map call bid value is matched with corresponding gampad call bid value]</name>
+                    <title>amazon aax Map call bid value is matched with corresponding gampad call bid value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Map_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482717503" stop="1641482718398" status="failed">
+            <name>Verify_Today_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Today Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Today_Details_ad_call_amazon_bid_id(regressionTestCases.java:338)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482717504" stop="1641482717504" status="passed">
+                    <name>logStep[****** Today Details ad call amazon bid id validation Started]</name>
+                    <title>****** Today Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482717946" stop="1641482717946" status="passed">
+                    <name>logStep[[Im7Iny3NnYoE_Y5KzRvTEQAAAAF-LbkaegEAAA-qAkM58jE]]</name>
+                    <title>[Im7Iny3NnYoE_Y5KzRvTEQAAAAF-LbkaegEAAA-qAkM58jE]</title>
+                </step>
+                <step start="1641482718398" stop="1641482718398" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482718398" stop="1641482718398" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, h...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, hence Cus...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Today_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482717503" stop="1641482718398" status="failed">
+            <name>Verify_Today_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Today Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Today_Details_ad_call_amazon_bid_id(regressionTestCases.java:338)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482717504" stop="1641482717504" status="passed">
+                    <name>logStep[****** Today Details ad call amazon bid id validation Started]</name>
+                    <title>****** Today Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482717946" stop="1641482717946" status="passed">
+                    <name>logStep[[Im7Iny3NnYoE_Y5KzRvTEQAAAAF-LbkaegEAAA-qAkM58jE]]</name>
+                    <title>[Im7Iny3NnYoE_Y5KzRvTEQAAAAF-LbkaegEAAA-qAkM58jE]</title>
+                </step>
+                <step start="1641482718398" stop="1641482718398" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482718398" stop="1641482718398" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, h...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, hence Cus...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Today_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482718400" stop="1641482719241" status="failed">
+            <name>Verify_AQ_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify AQ Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_AQ_Details_ad_call_amazon_bid_id(regressionTestCases.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482718401" stop="1641482718401" status="passed">
+                    <name>logStep[****** AQ Details ad call amazon bid id validation Started]</name>
+                    <title>****** AQ Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482718793" stop="1641482718793" status="passed">
+                    <name>logStep[[ImB0Mdg6Zg2rqWOuo2r6LV8AAAF-LbkhZgEAAA-qAgbpP4Q]]</name>
+                    <title>[ImB0Mdg6Zg2rqWOuo2r6LV8AAAF-LbkhZgEAAA-qAgbpP4Q]</title>
+                </step>
+                <step start="1641482719241" stop="1641482719241" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482719241" stop="1641482719241" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, henc...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, hence Custom...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_AQ_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482718400" stop="1641482719241" status="failed">
+            <name>Verify_AQ_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify AQ Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_AQ_Details_ad_call_amazon_bid_id(regressionTestCases.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482718401" stop="1641482718401" status="passed">
+                    <name>logStep[****** AQ Details ad call amazon bid id validation Started]</name>
+                    <title>****** AQ Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482718793" stop="1641482718793" status="passed">
+                    <name>logStep[[ImB0Mdg6Zg2rqWOuo2r6LV8AAAF-LbkhZgEAAA-qAgbpP4Q]]</name>
+                    <title>[ImB0Mdg6Zg2rqWOuo2r6LV8AAAF-LbkhZgEAAA-qAgbpP4Q]</title>
+                </step>
+                <step start="1641482719241" stop="1641482719241" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482719241" stop="1641482719241" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, henc...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Faq not contains the Custom Parameter: amzn_b, hence Custom...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_AQ_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482719243" stop="1641482720152" status="failed">
+            <name>Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Health Boat &amp; Beach Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id(regressionTestCases.java:360)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482719243" stop="1641482719243" status="passed">
+                    <name>logStep[****** Health Boat &amp; Beach Details ad call amazon bid id validation Started]</name>
+                    <title>****** Health Boat &amp; Beach Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482719664" stop="1641482719664" status="passed">
+                    <name>logStep[[error, IsuS48YjxnyuEAQzvvYQVJwAAAF-Lbh4nAEAAA-qAqnAKos]]</name>
+                    <title>[error, IsuS48YjxnyuEAQzvvYQVJwAAAF-Lbh4nAEAAA-qAqnAKos]</title>
+                </step>
+                <step start="1641482720151" stop="1641482720151" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482720151" stop="1641482720151" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn_b, henc...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482719243" stop="1641482720152" status="failed">
+            <name>Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Health Boat &amp; Beach Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id(regressionTestCases.java:360)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482719243" stop="1641482719243" status="passed">
+                    <name>logStep[****** Health Boat &amp; Beach Details ad call amazon bid id validation Started]</name>
+                    <title>****** Health Boat &amp; Beach Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482719664" stop="1641482719664" status="passed">
+                    <name>logStep[[error, IsuS48YjxnyuEAQzvvYQVJwAAAF-Lbh4nAEAAA-qAqnAKos]]</name>
+                    <title>[error, IsuS48YjxnyuEAQzvvYQVJwAAAF-Lbh4nAEAAA-qAqnAKos]</title>
+                </step>
+                <step start="1641482720151" stop="1641482720151" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482720151" stop="1641482720151" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn_b, henc...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482720154" stop="1641482721009" status="failed">
+            <name>Verify_Health_Running_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Health Running Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Health_Running_Details_ad_call_amazon_bid_id(regressionTestCases.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482720154" stop="1641482720154" status="passed">
+                    <name>logStep[****** Health Running Details ad call amazon bid id validation Started]</name>
+                    <title>****** Health Running Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482720550" stop="1641482720550" status="passed">
+                    <name>logStep[[IpvC07_OgzaV5M9b2Wst_WQAAAF-LbhPngEAAA-qAhIJ_UA]]</name>
+                    <title>[IpvC07_OgzaV5M9b2Wst_WQAAAF-LbhPngEAAA-qAhIJ_UA]</title>
+                </step>
+                <step start="1641482721009" stop="1641482721009" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482721009" stop="1641482721009" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b,...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b, hence C...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Health_Running_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482720154" stop="1641482721009" status="failed">
+            <name>Verify_Health_Running_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Health Running Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Health_Running_Details_ad_call_amazon_bid_id(regressionTestCases.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482720154" stop="1641482720154" status="passed">
+                    <name>logStep[****** Health Running Details ad call amazon bid id validation Started]</name>
+                    <title>****** Health Running Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482720550" stop="1641482720550" status="passed">
+                    <name>logStep[[IpvC07_OgzaV5M9b2Wst_WQAAAF-LbhPngEAAA-qAhIJ_UA]]</name>
+                    <title>[IpvC07_OgzaV5M9b2Wst_WQAAAF-LbhPngEAAA-qAhIJ_UA]</title>
+                </step>
+                <step start="1641482721009" stop="1641482721009" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482721009" stop="1641482721009" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b,...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b, hence C...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Health_Running_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482721011" stop="1641482722187" status="failed">
+            <name>Verify_amazon_aax_SeasonalHub_details_adcall</name>
+            <description type="text">Verify amazon aax Seasonal Hub Details ad call</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_amazon_aax_SeasonalHub_details_adcall(regressionTestCases.java:383)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482721012" stop="1641482721012" status="passed">
+                    <name>logStep[****** amazon aax Seasonal Hub Details ad call validation Started]</name>
+                    <title>****** amazon aax Seasonal Hub Details ad call validation Started</title>
+                </step>
+                <step start="1641482721418" stop="1641482721418" status="passed">
+                    <name>logStep[[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]]</name>
+                    <title>[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]</title>
+                </step>
+                <step start="1641482722186" stop="1641482722186" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482722186" stop="1641482722186" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, ...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, hence Cu...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_SeasonalHub_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482721011" stop="1641482722187" status="failed">
+            <name>Verify_amazon_aax_SeasonalHub_details_adcall</name>
+            <description type="text">Verify amazon aax Seasonal Hub Details ad call</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.regressionTestCases.Verify_amazon_aax_SeasonalHub_details_adcall(regressionTestCases.java:383)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482721012" stop="1641482721012" status="passed">
+                    <name>logStep[****** amazon aax Seasonal Hub Details ad call validation Started]</name>
+                    <title>****** amazon aax Seasonal Hub Details ad call validation Started</title>
+                </step>
+                <step start="1641482721418" stop="1641482721418" status="passed">
+                    <name>logStep[[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]]</name>
+                    <title>[IkS2dMRQO5Ixgam4Bo-xeXUAAAF-Lbkp5gEAAA-qAtMuRFo, InJYBaPKvMpBCLmc1cOpPMgAAAF-Lbk_PwEAAA-qAmk_KjY]</title>
+                </step>
+                <step start="1641482722186" stop="1641482722186" status="passed">
+                    <name>logStep[[]]</name>
+                    <title>[]</title>
+                </step>
+                <step start="1641482722186" stop="1641482722186" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, ...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fseason not contains the Custom Parameter: amzn_b, hence Cu...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_SeasonalHub_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482722189" stop="1641482723260" status="failed">
+            <name>Verify_Hourly1_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Hourly1 Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Hourly1_Details_ad_call_amazon_bid_id(regressionTestCases.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482722190" stop="1641482722190" status="passed">
+                    <name>logStep[****** Hourly1 Details ad call amazon bid id validation Started]</name>
+                    <title>****** Hourly1 Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482722663" stop="1641482722663" status="passed">
+                    <name>logStep[[In34SgM0VSaZ5bDV1qVBxwMAAAF-LbcrUgEAAA-qArJhjMY]]</name>
+                    <title>[In34SgM0VSaZ5bDV1qVBxwMAAAF-LbcrUgEAAA-qArJhjMY]</title>
+                </step>
+                <step start="1641482723259" stop="1641482723259" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 is not generated..</title>
+                </step>
+                <step start="1641482723260" stop="1641482723260" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom Paramet...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Hourly1_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482722189" stop="1641482723260" status="failed">
+            <name>Verify_Hourly1_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Hourly1 Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Hourly1_Details_ad_call_amazon_bid_id(regressionTestCases.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482722190" stop="1641482722190" status="passed">
+                    <name>logStep[****** Hourly1 Details ad call amazon bid id validation Started]</name>
+                    <title>****** Hourly1 Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482722663" stop="1641482722663" status="passed">
+                    <name>logStep[[In34SgM0VSaZ5bDV1qVBxwMAAAF-LbcrUgEAAA-qArJhjMY]]</name>
+                    <title>[In34SgM0VSaZ5bDV1qVBxwMAAAF-LbcrUgEAAA-qArJhjMY]</title>
+                </step>
+                <step start="1641482723259" stop="1641482723259" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 is not generated..</title>
+                </step>
+                <step start="1641482723260" stop="1641482723260" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly1 not found in charles session, hence Custom Paramet...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Hourly1_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482723261" stop="1641482724098" status="failed">
+            <name>Verify_Hourly2_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Hourly2 Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Hourly2_Details_ad_call_amazon_bid_id(regressionTestCases.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482723262" stop="1641482723262" status="passed">
+                    <name>logStep[****** Hourly2 Details ad call amazon bid id validation Started]</name>
+                    <title>****** Hourly2 Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482723652" stop="1641482723652" status="passed">
+                    <name>logStep[[IrG-xPBfZWPem7zOQw_G2IYAAAF-Lbcw-QEAAA-qAqt0sA4]]</name>
+                    <title>[IrG-xPBfZWPem7zOQw_G2IYAAAF-Lbcw-QEAAA-qAqt0sA4]</title>
+                </step>
+                <step start="1641482724097" stop="1641482724097" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 is not generated..</title>
+                </step>
+                <step start="1641482724097" stop="1641482724097" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom Paramet...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Hourly2_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482723261" stop="1641482724098" status="failed">
+            <name>Verify_Hourly2_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Hourly2 Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Hourly2_Details_ad_call_amazon_bid_id(regressionTestCases.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482723262" stop="1641482723262" status="passed">
+                    <name>logStep[****** Hourly2 Details ad call amazon bid id validation Started]</name>
+                    <title>****** Hourly2 Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482723652" stop="1641482723652" status="passed">
+                    <name>logStep[[IrG-xPBfZWPem7zOQw_G2IYAAAF-Lbcw-QEAAA-qAqt0sA4]]</name>
+                    <title>[IrG-xPBfZWPem7zOQw_G2IYAAAF-Lbcw-QEAAA-qAqt0sA4]</title>
+                </step>
+                <step start="1641482724097" stop="1641482724097" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 is not generated..</title>
+                </step>
+                <step start="1641482724097" stop="1641482724097" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly2 not found in charles session, hence Custom Paramet...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Hourly2_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482724099" stop="1641482724985" status="failed">
+            <name>Verify_Hourly3_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Hourly3 Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Hourly3_Details_ad_call_amazon_bid_id(regressionTestCases.java:417)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482724100" stop="1641482724100" status="passed">
+                    <name>logStep[****** Hourly3 Details ad call amazon bid id validation Started]</name>
+                    <title>****** Hourly3 Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482724539" stop="1641482724539" status="passed">
+                    <name>logStep[[IpAuQkMciMsWQEMPP07S-3cAAAF-Lbcn9QEAAA-qAu1gYKQ]]</name>
+                    <title>[IpAuQkMciMsWQEMPP07S-3cAAAF-Lbcn9QEAAA-qAu1gYKQ]</title>
+                </step>
+                <step start="1641482724984" stop="1641482724984" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 is not generated..</title>
+                </step>
+                <step start="1641482724984" stop="1641482724984" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom Paramet...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Hourly3_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482724099" stop="1641482724985" status="failed">
+            <name>Verify_Hourly3_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Hourly3 Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Hourly3_Details_ad_call_amazon_bid_id(regressionTestCases.java:417)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482724100" stop="1641482724100" status="passed">
+                    <name>logStep[****** Hourly3 Details ad call amazon bid id validation Started]</name>
+                    <title>****** Hourly3 Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482724539" stop="1641482724539" status="passed">
+                    <name>logStep[[IpAuQkMciMsWQEMPP07S-3cAAAF-Lbcn9QEAAA-qAu1gYKQ]]</name>
+                    <title>[IpAuQkMciMsWQEMPP07S-3cAAAF-Lbcn9QEAAA-qAu1gYKQ]</title>
+                </step>
+                <step start="1641482724984" stop="1641482724984" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 is not generated..</title>
+                </step>
+                <step start="1641482724984" stop="1641482724984" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fhourly3 not found in charles session, hence Custom Paramet...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Hourly3_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482724986" stop="1641482725952" status="failed">
+            <name>Verify_Daily_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Daily Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Daily_Details_ad_call_amazon_bid_id(regressionTestCases.java:429)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482724987" stop="1641482724987" status="passed">
+                    <name>logStep[****** Daily Details ad call amazon bid id validation Started]</name>
+                    <title>****** Daily Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482725495" stop="1641482725495" status="passed">
+                    <name>logStep[[IvP_eI9NPpl6q87dtS6ifewAAAF-Lbck3wEAAA-qAlIqWOo, IvbtlazPt-ehI2Q9YI4FGkkAAAF-LbcttwEAAA-qApOQm_A, IhbV53dFsVCYH...]</name>
+                    <title>[IvP_eI9NPpl6q87dtS6ifewAAAF-Lbck3wEAAA-qAlIqWOo, IvbtlazPt-ehI2Q9YI4FGkkAAAF-LbcttwEAAA-qApOQm_A, IhbV53dFsVCYHa1-u4dAM...</title>
+                </step>
+                <step start="1641482725951" stop="1641482725951" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ is not generated..</title>
+                </step>
+                <step start="1641482725951" stop="1641482725951" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom ...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Paramete...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Daily_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641482724986" stop="1641482725952" status="failed">
+            <name>Verify_Daily_Details_ad_call_amazon_bid_id</name>
+            <description type="text">Verify Daily Details ad call amazon bid id</description>
+            <failure>
+                <message>AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: amzn_b validation failed</message>
+                <stack-trace>java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.regressionTestCases.Verify_Daily_Details_ad_call_amazon_bid_id(regressionTestCases.java:429)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1641482724987" stop="1641482724987" status="passed">
+                    <name>logStep[****** Daily Details ad call amazon bid id validation Started]</name>
+                    <title>****** Daily Details ad call amazon bid id validation Started</title>
+                </step>
+                <step start="1641482725495" stop="1641482725495" status="passed">
+                    <name>logStep[[IvP_eI9NPpl6q87dtS6ifewAAAF-Lbck3wEAAA-qAlIqWOo, IvbtlazPt-ehI2Q9YI4FGkkAAAF-LbcttwEAAA-qApOQm_A, IhbV53dFsVCYH...]</name>
+                    <title>[IvP_eI9NPpl6q87dtS6ifewAAAF-Lbck3wEAAA-qAlIqWOo, IvbtlazPt-ehI2Q9YI4FGkkAAAF-LbcttwEAAA-qApOQm_A, IhbV53dFsVCYHa1-u4dAM...</title>
+                </step>
+                <step start="1641482725951" stop="1641482725951" status="passed">
+                    <name>logStep[Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ is not generated..]</name>
+                    <title>Corresponding gampad call iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ is not generated..</title>
+                </step>
+                <step start="1641482725951" stop="1641482725951" status="passed">
+                    <name>logStep[Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom ...]</name>
+                    <title>Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Paramete...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Daily_Details_ad_call_amazon_bid_id"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="21631@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

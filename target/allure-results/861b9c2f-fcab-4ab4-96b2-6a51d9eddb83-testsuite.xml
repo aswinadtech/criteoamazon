@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1641477002284" stop="1641477010790" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1641477002350" stop="1641477004965" status="passed">
+            <name>Validate_Amazon_SDK_adsdk_parameter</name>
+            <description type="text">Validating 'adsdk' parameter of Amazon aax call </description>
+            <steps>
+                <step start="1641477002373" stop="1641477002375" status="passed">
+                    <name>logStep[****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call]</name>
+                    <title>****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477002405" stop="1641477002405" status="passed">
+                    <name>logStep[File Name is : amazonslotstodaysdev.chlsx]</name>
+                    <title>File Name is : amazonslotstodaysdev.chlsx</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477002406" stop="1641477002406" status="passed">
+                    <name>logStep[Failed to Generate XML file from Charles session file]</name>
+                    <title>Failed to Generate XML file from Charles session file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477003981" stop="1641477003981" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477004003" stop="1641477004003" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session]</name>
+                    <title>aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477004929" stop="1641477004929" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477004962" stop="1641477004962" status="passed">
+                    <name>logStep[Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0]</name>
+                    <title>Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Amazon_SDK_adsdk_parameter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477002350" stop="1641477004965" status="passed">
+            <name>Validate_Amazon_SDK_adsdk_parameter</name>
+            <description type="text">Validating 'adsdk' parameter of Amazon aax call </description>
+            <steps>
+                <step start="1641477002373" stop="1641477002375" status="passed">
+                    <name>logStep[****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call]</name>
+                    <title>****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477002405" stop="1641477002405" status="passed">
+                    <name>logStep[File Name is : amazonslotstodaysdev.chlsx]</name>
+                    <title>File Name is : amazonslotstodaysdev.chlsx</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477002406" stop="1641477002406" status="passed">
+                    <name>logStep[Failed to Generate XML file from Charles session file]</name>
+                    <title>Failed to Generate XML file from Charles session file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477003981" stop="1641477003981" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477004003" stop="1641477004003" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session]</name>
+                    <title>aax-us-east.amazon-adsystem.com/e/msdk/ads  call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477004929" stop="1641477004929" status="passed">
+                    <name>logStep[aax-us-east.amazon-adsystem.com  call is present]</name>
+                    <title>aax-us-east.amazon-adsystem.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477004962" stop="1641477004962" status="passed">
+                    <name>logStep[Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0]</name>
+                    <title>Custom Parameter :adsdk value: aps-android-9.1.0 is matched with the expected value aps-android-9.1.0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Amazon_SDK_adsdk_parameter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477004972" stop="1641477005540" status="passed">
+            <name>Verifying_amazon_slotId_for_AlertsCenter</name>
+            <description type="text">Verifying amazon slot Id for alerts center Page</description>
+            <steps>
+                <step start="1641477004974" stop="1641477004974" status="passed">
+                    <name>logStep[****** Alert Center ad test case Started]</name>
+                    <title>****** Alert Center ad test case Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005539" stop="1641477005539" status="passed">
+                    <name>logStep[slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present]</name>
+                    <title>slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005540" stop="1641477005540" status="passed">
+                    <name>logStep[MyAlerts : AAX slot id Verification is successful]</name>
+                    <title>MyAlerts : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verifying_amazon_slotId_for_AlertsCenter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477004972" stop="1641477005540" status="passed">
+            <name>Verifying_amazon_slotId_for_AlertsCenter</name>
+            <description type="text">Verifying amazon slot Id for alerts center Page</description>
+            <steps>
+                <step start="1641477004974" stop="1641477004974" status="passed">
+                    <name>logStep[****** Alert Center ad test case Started]</name>
+                    <title>****** Alert Center ad test case Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005539" stop="1641477005539" status="passed">
+                    <name>logStep[slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present]</name>
+                    <title>slot id: a2d9bda4-e2e2-4ae7-a285-5bc61c45eaf2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005540" stop="1641477005540" status="passed">
+                    <name>logStep[MyAlerts : AAX slot id Verification is successful]</name>
+                    <title>MyAlerts : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verifying_amazon_slotId_for_AlertsCenter"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477005543" stop="1641477005909" status="passed">
+            <name>Verify_amazon_aaxSlot_feed1_adCall</name>
+            <description type="text">Verifying amazon Slot Id for feed1 prerol ad call</description>
+            <steps>
+                <step start="1641477005544" stop="1641477005544" status="passed">
+                    <name>logStep[****** amazon aax feed1 preload ad call validation Started]</name>
+                    <title>****** amazon aax feed1 preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005909" stop="1641477005909" status="passed">
+                    <name>logStep[slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present]</name>
+                    <title>slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005909" stop="1641477005909" status="passed">
+                    <name>logStep[Feed1 : AAX slot id Verification is successful]</name>
+                    <title>Feed1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed1_adCall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477005543" stop="1641477005909" status="passed">
+            <name>Verify_amazon_aaxSlot_feed1_adCall</name>
+            <description type="text">Verifying amazon Slot Id for feed1 prerol ad call</description>
+            <steps>
+                <step start="1641477005544" stop="1641477005544" status="passed">
+                    <name>logStep[****** amazon aax feed1 preload ad call validation Started]</name>
+                    <title>****** amazon aax feed1 preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005909" stop="1641477005909" status="passed">
+                    <name>logStep[slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present]</name>
+                    <title>slot id: f4b66249-b6eb-4155-9d90-1e2b04487c99 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477005909" stop="1641477005909" status="passed">
+                    <name>logStep[Feed1 : AAX slot id Verification is successful]</name>
+                    <title>Feed1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed1_adCall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477005911" stop="1641477006305" status="passed">
+            <name>Verify_amazon_aaxSlot_feed2_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed2 ad call</description>
+            <steps>
+                <step start="1641477005912" stop="1641477005912" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed2]</name>
+                    <title> Verifying amazon aax slot Id for feed2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006304" stop="1641477006304" status="passed">
+                    <name>logStep[slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present]</name>
+                    <title>slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006305" stop="1641477006305" status="passed">
+                    <name>logStep[Feed2 : AAX slot id Verification is successful]</name>
+                    <title>Feed2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed2_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477005911" stop="1641477006305" status="passed">
+            <name>Verify_amazon_aaxSlot_feed2_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed2 ad call</description>
+            <steps>
+                <step start="1641477005912" stop="1641477005912" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed2]</name>
+                    <title> Verifying amazon aax slot Id for feed2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006304" stop="1641477006304" status="passed">
+                    <name>logStep[slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present]</name>
+                    <title>slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006305" stop="1641477006305" status="passed">
+                    <name>logStep[Feed2 : AAX slot id Verification is successful]</name>
+                    <title>Feed2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed2_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477006307" stop="1641477006611" status="passed">
+            <name>Smoke_Test_amazon_aaxSlot_feed3_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed3 ad call</description>
+            <steps>
+                <step start="1641477006308" stop="1641477006308" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed3]</name>
+                    <title> Verifying amazon aax slot Id for feed3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006610" stop="1641477006610" status="passed">
+                    <name>logStep[slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present]</name>
+                    <title>slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006611" stop="1641477006611" status="passed">
+                    <name>logStep[Feed3 : AAX slot id Verification is successful]</name>
+                    <title>Feed3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aaxSlot_feed3_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477006307" stop="1641477006611" status="passed">
+            <name>Smoke_Test_amazon_aaxSlot_feed3_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed3 ad call</description>
+            <steps>
+                <step start="1641477006308" stop="1641477006308" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed3]</name>
+                    <title> Verifying amazon aax slot Id for feed3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006610" stop="1641477006610" status="passed">
+                    <name>logStep[slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present]</name>
+                    <title>slot id: 9384272f-b27f-4686-935f-02e6c5763abd is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006611" stop="1641477006611" status="passed">
+                    <name>logStep[Feed3 : AAX slot id Verification is successful]</name>
+                    <title>Feed3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aaxSlot_feed3_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477006613" stop="1641477006941" status="passed">
+            <name>Verify_amazon_aaxSlot_feed4_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641477006614" stop="1641477006614" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006941" stop="1641477006941" status="passed">
+                    <name>logStep[slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present]</name>
+                    <title>slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006941" stop="1641477006941" status="passed">
+                    <name>logStep[Feed4 : AAX slot id Verification is successful]</name>
+                    <title>Feed4 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed4_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477006613" stop="1641477006941" status="passed">
+            <name>Verify_amazon_aaxSlot_feed4_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641477006614" stop="1641477006614" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006941" stop="1641477006941" status="passed">
+                    <name>logStep[slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present]</name>
+                    <title>slot id: 90251553-fb54-47a1-bbe2-dce4e1c27758 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477006941" stop="1641477006941" status="passed">
+                    <name>logStep[Feed4 : AAX slot id Verification is successful]</name>
+                    <title>Feed4 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed4_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477006944" stop="1641477007244" status="passed">
+            <name>Verify_amazon_aaxSlot_feed5_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641477006944" stop="1641477006944" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007244" stop="1641477007244" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007244" stop="1641477007244" status="passed">
+                    <name>logStep[Feed5 : AAX slot id Verification is successful]</name>
+                    <title>Feed5 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed5_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477006944" stop="1641477007244" status="passed">
+            <name>Verify_amazon_aaxSlot_feed5_adcall</name>
+            <description type="text">Verifying amazon  Slot Id for feed4 ad call</description>
+            <steps>
+                <step start="1641477006944" stop="1641477006944" status="passed">
+                    <name>logStep[ Verifying amazon aax slot Id for feed4]</name>
+                    <title> Verifying amazon aax slot Id for feed4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007244" stop="1641477007244" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007244" stop="1641477007244" status="passed">
+                    <name>logStep[Feed5 : AAX slot id Verification is successful]</name>
+                    <title>Feed5 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aaxSlot_feed5_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477007246" stop="1641477007588" status="passed">
+            <name>Verify_amazon_aax_mapsdetails_adcall</name>
+            <description type="text">Verifying amazon Slot Id for maps details preroll ad cal</description>
+            <steps>
+                <step start="1641477007247" stop="1641477007247" status="passed">
+                    <name>logStep[ Verifying preload amazon aax for  map details]</name>
+                    <title> Verifying preload amazon aax for  map details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007587" stop="1641477007587" status="passed">
+                    <name>logStep[slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present]</name>
+                    <title>slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007588" stop="1641477007588" status="passed">
+                    <name>logStep[Map : AAX slot id Verification is successful]</name>
+                    <title>Map : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_mapsdetails_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477007246" stop="1641477007588" status="passed">
+            <name>Verify_amazon_aax_mapsdetails_adcall</name>
+            <description type="text">Verifying amazon Slot Id for maps details preroll ad cal</description>
+            <steps>
+                <step start="1641477007247" stop="1641477007247" status="passed">
+                    <name>logStep[ Verifying preload amazon aax for  map details]</name>
+                    <title> Verifying preload amazon aax for  map details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007587" stop="1641477007587" status="passed">
+                    <name>logStep[slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present]</name>
+                    <title>slot id: 5db1161b-b504-4640-9496-dfe6284f84ab is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007588" stop="1641477007588" status="passed">
+                    <name>logStep[Map : AAX slot id Verification is successful]</name>
+                    <title>Map : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_mapsdetails_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477007592" stop="1641477007901" status="passed">
+            <name>Smoke_Test_amazon_aax_today_deatailcard</name>
+            <description type="text">Verifying amazon aax for today details card</description>
+            <steps>
+                <step start="1641477007900" stop="1641477007900" status="passed">
+                    <name>logStep[slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present]</name>
+                    <title>slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007901" stop="1641477007901" status="passed">
+                    <name>logStep[Today : AAX slot id Verification is successful]</name>
+                    <title>Today : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_today_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477007592" stop="1641477007901" status="passed">
+            <name>Smoke_Test_amazon_aax_today_deatailcard</name>
+            <description type="text">Verifying amazon aax for today details card</description>
+            <steps>
+                <step start="1641477007900" stop="1641477007900" status="passed">
+                    <name>logStep[slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present]</name>
+                    <title>slot id: 8d4e513d-9ae1-4b32-9468-9be0f434262f is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477007901" stop="1641477007901" status="passed">
+                    <name>logStep[Today : AAX slot id Verification is successful]</name>
+                    <title>Today : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_today_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477007903" stop="1641477008229" status="passed">
+            <name>Smoke_Test_amazon_aax_Airquality_deatailcard</name>
+            <description type="text">Verifying amazon aax for AQ details page</description>
+            <steps>
+                <step start="1641477008229" stop="1641477008229" status="passed">
+                    <name>logStep[slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present]</name>
+                    <title>slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477008229" stop="1641477008229" status="passed">
+                    <name>logStep[Air Quality(Content) : AAX slot id Verification is successful]</name>
+                    <title>Air Quality(Content) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Airquality_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477007903" stop="1641477008229" status="passed">
+            <name>Smoke_Test_amazon_aax_Airquality_deatailcard</name>
+            <description type="text">Verifying amazon aax for AQ details page</description>
+            <steps>
+                <step start="1641477008229" stop="1641477008229" status="passed">
+                    <name>logStep[slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present]</name>
+                    <title>slot id: 9aec4232-00c6-476b-8bbf-e66ecbd57edb is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477008229" stop="1641477008229" status="passed">
+                    <name>logStep[Air Quality(Content) : AAX slot id Verification is successful]</name>
+                    <title>Air Quality(Content) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Airquality_deatailcard"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477008231" stop="1641477008535" status="passed">
+            <name>Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id for Running Bigbanner ad</description>
+            <steps>
+                <step start="1641477008535" stop="1641477008535" status="passed">
+                    <name>logStep[slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present]</name>
+                    <title>slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477008535" stop="1641477008535" status="passed">
+                    <name>logStep[Health(goRun) : AAX slot id Verification is successful]</name>
+                    <title>Health(goRun) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477008231" stop="1641477008535" status="passed">
+            <name>Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id for Running Bigbanner ad</description>
+            <steps>
+                <step start="1641477008535" stop="1641477008535" status="passed">
+                    <name>logStep[slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present]</name>
+                    <title>slot id: 27a25b19-0b5c-44c6-9051-bb859a7e0f66 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477008535" stop="1641477008535" status="passed">
+                    <name>logStep[Health(goRun) : AAX slot id Verification is successful]</name>
+                    <title>Health(goRun) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477008537" stop="1641477008879" status="passed">
+            <name>Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id  for Boat&amp;Beach Bigbanner ad</description>
+            <steps>
+                <step start="1641477008878" stop="1641477008878" status="passed">
+                    <name>logStep[slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present]</name>
+                    <title>slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477008879" stop="1641477008879" status="passed">
+                    <name>logStep[Health(boatAndBeach) : AAX slot id Verification is successful]</name>
+                    <title>Health(boatAndBeach) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477008537" stop="1641477008879" status="passed">
+            <name>Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad</name>
+            <description type="text">Verifying amazon slot Id  for Boat&amp;Beach Bigbanner ad</description>
+            <steps>
+                <step start="1641477008878" stop="1641477008878" status="passed">
+                    <name>logStep[slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present]</name>
+                    <title>slot id: 58b652be-94ba-494d-8ac8-ac5e9ec00433 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477008879" stop="1641477008879" status="passed">
+                    <name>logStep[Health(boatAndBeach) : AAX slot id Verification is successful]</name>
+                    <title>Health(boatAndBeach) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477008880" stop="1641477009177" status="passed">
+            <name>Verify_amazon_SlotId_outdoor_details</name>
+            <description type="text">Verifying amazon slot Id for Outdoor details page</description>
+            <steps>
+                <step start="1641477009177" stop="1641477009177" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009177" stop="1641477009177" status="passed">
+                    <name>logStep[SeasonalHub(Details) : AAX slot id Verification is successful]</name>
+                    <title>SeasonalHub(Details) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_outdoor_details"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477008880" stop="1641477009177" status="passed">
+            <name>Verify_amazon_SlotId_outdoor_details</name>
+            <description type="text">Verifying amazon slot Id for Outdoor details page</description>
+            <steps>
+                <step start="1641477009177" stop="1641477009177" status="passed">
+                    <name>logStep[slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present]</name>
+                    <title>slot id: 2bf017a1-7b30-4a93-b455-5227c8b01940 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009177" stop="1641477009177" status="passed">
+                    <name>logStep[SeasonalHub(Details) : AAX slot id Verification is successful]</name>
+                    <title>SeasonalHub(Details) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_SlotId_outdoor_details"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477009179" stop="1641477009479" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly Details preload ad call</description>
+            <steps>
+                <step start="1641477009179" stop="1641477009179" status="passed">
+                    <name>logStep[****** amazon aax Hourly Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009479" stop="1641477009479" status="passed">
+                    <name>logStep[slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present]</name>
+                    <title>slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009479" stop="1641477009479" status="passed">
+                    <name>logStep[Hourly : AAX slot id Verification is successful]</name>
+                    <title>Hourly : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477009179" stop="1641477009479" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly Details preload ad call</description>
+            <steps>
+                <step start="1641477009179" stop="1641477009179" status="passed">
+                    <name>logStep[****** amazon aax Hourly Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009479" stop="1641477009479" status="passed">
+                    <name>logStep[slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present]</name>
+                    <title>slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009479" stop="1641477009479" status="passed">
+                    <name>logStep[Hourly : AAX slot id Verification is successful]</name>
+                    <title>Hourly : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477009481" stop="1641477009842" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly1_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly1 Details preload ad call</description>
+            <steps>
+                <step start="1641477009482" stop="1641477009482" status="passed">
+                    <name>logStep[****** amazon aax Hourly1 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly1 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009842" stop="1641477009842" status="passed">
+                    <name>logStep[slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present]</name>
+                    <title>slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009842" stop="1641477009842" status="passed">
+                    <name>logStep[Hourly1 : AAX slot id Verification is successful]</name>
+                    <title>Hourly1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly1_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477009481" stop="1641477009842" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly1_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly1 Details preload ad call</description>
+            <steps>
+                <step start="1641477009482" stop="1641477009482" status="passed">
+                    <name>logStep[****** amazon aax Hourly1 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly1 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009842" stop="1641477009842" status="passed">
+                    <name>logStep[slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present]</name>
+                    <title>slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477009842" stop="1641477009842" status="passed">
+                    <name>logStep[Hourly1 : AAX slot id Verification is successful]</name>
+                    <title>Hourly1 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly1_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477009844" stop="1641477010144" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly2_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly2 Details preload ad call</description>
+            <steps>
+                <step start="1641477009844" stop="1641477009844" status="passed">
+                    <name>logStep[****** amazon aax Hourly2 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly2 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010143" stop="1641477010143" status="passed">
+                    <name>logStep[slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present]</name>
+                    <title>slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010143" stop="1641477010143" status="passed">
+                    <name>logStep[Hourly2 : AAX slot id Verification is successful]</name>
+                    <title>Hourly2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly2_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477009844" stop="1641477010144" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly2_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly2 Details preload ad call</description>
+            <steps>
+                <step start="1641477009844" stop="1641477009844" status="passed">
+                    <name>logStep[****** amazon aax Hourly2 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly2 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010143" stop="1641477010143" status="passed">
+                    <name>logStep[slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present]</name>
+                    <title>slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47e is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010143" stop="1641477010143" status="passed">
+                    <name>logStep[Hourly2 : AAX slot id Verification is successful]</name>
+                    <title>Hourly2 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly2_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477010145" stop="1641477010474" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly3_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly3 Details preload ad call</description>
+            <steps>
+                <step start="1641477010146" stop="1641477010146" status="passed">
+                    <name>logStep[****** amazon aax Hourly3 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly3 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010474" stop="1641477010474" status="passed">
+                    <name>logStep[slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present]</name>
+                    <title>slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010474" stop="1641477010474" status="passed">
+                    <name>logStep[Hourly3 : AAX slot id Verification is successful]</name>
+                    <title>Hourly3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly3_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477010145" stop="1641477010474" status="passed">
+            <name>Verify_amazon_aax_preload_Hourly3_details_adcall</name>
+            <description type="text">Verify amazon aax Hourly3 Details preload ad call</description>
+            <steps>
+                <step start="1641477010146" stop="1641477010146" status="passed">
+                    <name>logStep[****** amazon aax Hourly3 Details preload ad call validation Started]</name>
+                    <title>****** amazon aax Hourly3 Details preload ad call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010474" stop="1641477010474" status="passed">
+                    <name>logStep[slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present]</name>
+                    <title>slot id: 72634dc9-b59f-4b2c-b281-bb3be291b7b6 is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010474" stop="1641477010474" status="passed">
+                    <name>logStep[Hourly3 : AAX slot id Verification is successful]</name>
+                    <title>Hourly3 : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_amazon_aax_preload_Hourly3_details_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477010475" stop="1641477010770" status="passed">
+            <name>Smoke_Test_amazon_aax_Daily_details_Day1_adcall</name>
+            <title>Verifying amazon Slot Id for daily details day1 ad calll</title>
+            <steps>
+                <step start="1641477010770" stop="1641477010770" status="passed">
+                    <name>logStep[slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present]</name>
+                    <title>slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010770" stop="1641477010770" status="passed">
+                    <name>logStep[Daily(10day) : AAX slot id Verification is successful]</name>
+                    <title>Daily(10day) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Daily_details_Day1_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1641477010475" stop="1641477010770" status="passed">
+            <name>Smoke_Test_amazon_aax_Daily_details_Day1_adcall</name>
+            <title>Verifying amazon Slot Id for daily details day1 ad calll</title>
+            <steps>
+                <step start="1641477010770" stop="1641477010770" status="passed">
+                    <name>logStep[slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present]</name>
+                    <title>slot id: 6c5a145d-9198-48f4-adfd-08f05557eace is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1641477010770" stop="1641477010770" status="passed">
+                    <name>logStep[Daily(10day) : AAX slot id Verification is successful]</name>
+                    <title>Daily(10day) : AAX slot id Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Smoke_Test_amazon_aax_Daily_details_Day1_adcall"/>
+                <label name="host" value="Aswinikumars-MacBook-Pro.local"/>
+                <label name="thread" value="19020@Aswinikumars-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

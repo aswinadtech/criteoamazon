@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">87 methods, 10 failed,   77 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_AlertCenter_ad_call_amazon_bid_id">Verify_AlertCenter_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Daily_Details_ad_call_amazon_bid_id">Verify_Daily_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Feed1_ad_call_amazon_bid_id">Verify_Feed1_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Feed3_ad_call_amazon_bid_id">Verify_Feed3_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id">Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Health_Running_Details_ad_call_amazon_bid_id">Verify_Health_Running_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Today_Details_ad_call_amazon_bid_id">Verify_Today_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad">Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Smoke_Test_amazon_aaxSlot_feed3_adcall">Smoke_Test_amazon_aaxSlot_feed3_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Smoke_Test_amazon_aax_Airquality_deatailcard">Smoke_Test_amazon_aax_Airquality_deatailcard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Smoke_Test_amazon_aax_Daily_details_Day1_adcall">Smoke_Test_amazon_aax_Daily_details_Day1_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Smoke_Test_amazon_aax_today_deatailcard">Smoke_Test_amazon_aax_today_deatailcard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Validate_Amazon_SDK_adsdk_parameter">Validate_Amazon_SDK_adsdk_parameter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Validate_Criteo_SDK_config_app_Call_bundleId_parameter">Validate_Criteo_SDK_config_app_Call_bundleId_parameter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Validate_Criteo_SDK_config_app_Call_cpId_parameter">Validate_Criteo_SDK_config_app_Call_cpId_parameter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter">Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_AQ_Details_ad_call_amazon_bid_id">Verify_AQ_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_config_app_Call">Verify_Criteo_SDK_config_app_Call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call">Verify_Criteo_SDK_inapp_v2_Call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Feed2_ad_call_amazon_bid_id">Verify_Feed2_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Feed4_ad_call_amazon_bid_id">Verify_Feed4_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Feed5_ad_call_amazon_bid_id">Verify_Feed5_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Hourly1_Details_ad_call_amazon_bid_id">Verify_Hourly1_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Hourly2_Details_ad_call_amazon_bid_id">Verify_Hourly2_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Hourly3_Details_ad_call_amazon_bid_id">Verify_Hourly3_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_Map_Details_ad_call_amazon_bid_id">Verify_Map_Details_ad_call_amazon_bid_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad">Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_SlotId_outdoor_details">Verify_amazon_SlotId_outdoor_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aaxSlot_feed1_adCall">Verify_amazon_aaxSlot_feed1_adCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aaxSlot_feed2_adcall">Verify_amazon_aaxSlot_feed2_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aaxSlot_feed4_adcall">Verify_amazon_aaxSlot_feed4_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aaxSlot_feed5_adcall">Verify_amazon_aaxSlot_feed5_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aax_SeasonalHub_details_adcall">Verify_amazon_aax_SeasonalHub_details_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aax_mapsdetails_adcall">Verify_amazon_aax_mapsdetails_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aax_preload_Hourly1_details_adcall">Verify_amazon_aax_preload_Hourly1_details_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aax_preload_Hourly2_details_adcall">Verify_amazon_aax_preload_Hourly2_details_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aax_preload_Hourly3_details_adcall">Verify_amazon_aax_preload_Hourly3_details_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verify_amazon_aax_preload_Hourly_details_adcall">Verify_amazon_aax_preload_Hourly_details_adcall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="twc.Regression.TestCases.Criteo_Amazon_Testcases" hash-for-method="Verifying_amazon_slotId_for_AlertsCenter">Verifying_amazon_slotId_for_AlertsCenter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">twc.Regression.TestCases.Criteo_Amazon_Testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_AlertCenter_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_AlertCenter_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_AlertCenter_ad_call_amazon_bid_id</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Falerts%2Fcenter not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_AlertCenter_ad_call_amazon_bid_id(Criteo_Amazon_Testcases.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: cpm validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value(Functions.java:7217)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call(Criteo_Amazon_Testcases.java:928)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: displayurl validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value(Functions.java:7217)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call(Criteo_Amazon_Testcases.java:954)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: size validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value(Functions.java:7217)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call(Criteo_Amazon_Testcases.java:941)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Daily_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Daily_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Daily_Details_ad_call_amazon_bid_id</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2F10day_ not found in charles session, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5531)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Daily_Details_ad_call_amazon_bid_id(Criteo_Amazon_Testcases.java:445)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Feed1_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Feed1_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Feed1_ad_call_amazon_bid_id</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Feed1_ad_call_amazon_bid_id(Criteo_Amazon_Testcases.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Feed3_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Feed3_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Feed3_ad_call_amazon_bid_id</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_3 not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Feed3_ad_call_amazon_bid_id(Criteo_Amazon_Testcases.java:310)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Fboat_beach not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id(Criteo_Amazon_Testcases.java:376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Health_Running_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Health_Running_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Health_Running_Details_ad_call_amazon_bid_id</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fcontent%2Frunning not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Health_Running_Details_ad_call_amazon_bid_id(Criteo_Amazon_Testcases.java:388)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Today_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Today_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Today_Details_ad_call_amazon_bid_id</span>
+                  <div class="stack-trace">java.lang.AssertionError: Ad Call :iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Ftoday not contains the Custom Parameter: amzn_b, hence Custom Parameter: amzn_b validation failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validate_aax_bid_value_with_gampad_bid_value(Functions.java:5538)
+	at twc.Regression.TestCases.Criteo_Amazon_Testcases.Verify_Today_Details_ad_call_amazon_bid_id(Criteo_Amazon_Testcases.java:354)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">twc.Regression.TestCases.Criteo_Amazon_Testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad">
+                  </a> <!-- Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad -->
+                  <span class="method-name">Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke_Test_amazon_aaxSlot_feed3_adcall">
+                  </a> <!-- Smoke_Test_amazon_aaxSlot_feed3_adcall -->
+                  <span class="method-name">Smoke_Test_amazon_aaxSlot_feed3_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke_Test_amazon_aax_Airquality_deatailcard">
+                  </a> <!-- Smoke_Test_amazon_aax_Airquality_deatailcard -->
+                  <span class="method-name">Smoke_Test_amazon_aax_Airquality_deatailcard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke_Test_amazon_aax_Daily_details_Day1_adcall">
+                  </a> <!-- Smoke_Test_amazon_aax_Daily_details_Day1_adcall -->
+                  <span class="method-name">Smoke_Test_amazon_aax_Daily_details_Day1_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke_Test_amazon_aax_today_deatailcard">
+                  </a> <!-- Smoke_Test_amazon_aax_today_deatailcard -->
+                  <span class="method-name">Smoke_Test_amazon_aax_today_deatailcard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Amazon_SDK_adsdk_parameter">
+                  </a> <!-- Validate_Amazon_SDK_adsdk_parameter -->
+                  <span class="method-name">Validate_Amazon_SDK_adsdk_parameter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Criteo_SDK_config_app_Call_bundleId_parameter">
+                  </a> <!-- Validate_Criteo_SDK_config_app_Call_bundleId_parameter -->
+                  <span class="method-name">Validate_Criteo_SDK_config_app_Call_bundleId_parameter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Criteo_SDK_config_app_Call_cpId_parameter">
+                  </a> <!-- Validate_Criteo_SDK_config_app_Call_cpId_parameter -->
+                  <span class="method-name">Validate_Criteo_SDK_config_app_Call_cpId_parameter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter">
+                  </a> <!-- Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter -->
+                  <span class="method-name">Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_AQ_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_AQ_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_AQ_Details_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_config_app_Call">
+                  </a> <!-- Verify_Criteo_SDK_config_app_Call -->
+                  <span class="method-name">Verify_Criteo_SDK_config_app_Call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call">
+                  </a> <!-- Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call -->
+                  <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Feed2_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Feed2_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Feed2_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Feed4_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Feed4_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Feed4_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Feed5_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Feed5_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Feed5_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Hourly1_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Hourly1_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Hourly1_Details_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Hourly2_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Hourly2_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Hourly2_Details_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Hourly3_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Hourly3_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Hourly3_Details_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Map_Details_ad_call_amazon_bid_id">
+                  </a> <!-- Verify_Map_Details_ad_call_amazon_bid_id -->
+                  <span class="method-name">Verify_Map_Details_ad_call_amazon_bid_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad">
+                  </a> <!-- Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad -->
+                  <span class="method-name">Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_SlotId_outdoor_details">
+                  </a> <!-- Verify_amazon_SlotId_outdoor_details -->
+                  <span class="method-name">Verify_amazon_SlotId_outdoor_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aaxSlot_feed1_adCall">
+                  </a> <!-- Verify_amazon_aaxSlot_feed1_adCall -->
+                  <span class="method-name">Verify_amazon_aaxSlot_feed1_adCall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aaxSlot_feed2_adcall">
+                  </a> <!-- Verify_amazon_aaxSlot_feed2_adcall -->
+                  <span class="method-name">Verify_amazon_aaxSlot_feed2_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aaxSlot_feed4_adcall">
+                  </a> <!-- Verify_amazon_aaxSlot_feed4_adcall -->
+                  <span class="method-name">Verify_amazon_aaxSlot_feed4_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aaxSlot_feed5_adcall">
+                  </a> <!-- Verify_amazon_aaxSlot_feed5_adcall -->
+                  <span class="method-name">Verify_amazon_aaxSlot_feed5_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aax_SeasonalHub_details_adcall">
+                  </a> <!-- Verify_amazon_aax_SeasonalHub_details_adcall -->
+                  <span class="method-name">Verify_amazon_aax_SeasonalHub_details_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aax_mapsdetails_adcall">
+                  </a> <!-- Verify_amazon_aax_mapsdetails_adcall -->
+                  <span class="method-name">Verify_amazon_aax_mapsdetails_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aax_preload_Hourly1_details_adcall">
+                  </a> <!-- Verify_amazon_aax_preload_Hourly1_details_adcall -->
+                  <span class="method-name">Verify_amazon_aax_preload_Hourly1_details_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aax_preload_Hourly2_details_adcall">
+                  </a> <!-- Verify_amazon_aax_preload_Hourly2_details_adcall -->
+                  <span class="method-name">Verify_amazon_aax_preload_Hourly2_details_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aax_preload_Hourly3_details_adcall">
+                  </a> <!-- Verify_amazon_aax_preload_Hourly3_details_adcall -->
+                  <span class="method-name">Verify_amazon_aax_preload_Hourly3_details_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_amazon_aax_preload_Hourly_details_adcall">
+                  </a> <!-- Verify_amazon_aax_preload_Hourly_details_adcall -->
+                  <span class="method-name">Verify_amazon_aax_preload_Hourly_details_adcall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifying_amazon_slotId_for_AlertsCenter">
+                  </a> <!-- Verifying_amazon_slotId_for_AlertsCenter -->
+                  <span class="method-name">Verifying_amazon_slotId_for_AlertsCenter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/sq/6ytcx3fj2yd8dmgrjt1_jjm80000gn/T/testng-eclipse--1599402889/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;twc.Regression.TestCases.Criteo_Amazon_Testcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(87);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Validate_Amazon_SDK_adsdk_parameter')
+data.setCell(0, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(0, 3, 1204);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call')
+data.setCell(1, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(1, 3, 334);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call')
+data.setCell(2, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(2, 3, 279);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call')
+data.setCell(3, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(3, 3, 255);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call')
+data.setCell(4, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(4, 3, 246);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Validate_Criteo_SDK_config_app_Call_cpId_parameter')
+data.setCell(5, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(5, 3, 241);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call')
+data.setCell(6, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(6, 3, 241);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Verify_Feed1_ad_call_amazon_bid_id')
+data.setCell(7, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(7, 3, 237);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Verify_AlertCenter_ad_call_amazon_bid_id')
+data.setCell(8, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(8, 3, 224);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Verify_Feed2_ad_call_amazon_bid_id')
+data.setCell(9, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(9, 3, 214);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call')
+data.setCell(10, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(10, 3, 205);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call')
+data.setCell(11, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(11, 3, 200);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call')
+data.setCell(12, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(12, 3, 200);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call')
+data.setCell(13, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(13, 3, 187);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call')
+data.setCell(14, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(14, 3, 181);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call')
+data.setCell(15, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(15, 3, 166);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call')
+data.setCell(16, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(16, 3, 163);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call')
+data.setCell(17, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(17, 3, 163);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter')
+data.setCell(18, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(18, 3, 163);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call')
+data.setCell(19, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(19, 3, 162);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call')
+data.setCell(20, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(20, 3, 161);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call')
+data.setCell(21, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(21, 3, 161);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Verify_Daily_Details_ad_call_amazon_bid_id')
+data.setCell(22, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(22, 3, 159);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call')
+data.setCell(23, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(23, 3, 158);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call')
+data.setCell(24, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(24, 3, 158);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call')
+data.setCell(25, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(25, 3, 158);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call')
+data.setCell(26, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(26, 3, 156);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call')
+data.setCell(27, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(27, 3, 156);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call')
+data.setCell(28, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(28, 3, 156);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call')
+data.setCell(29, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(29, 3, 155);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call')
+data.setCell(30, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(30, 3, 155);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Verify_Map_Details_ad_call_amazon_bid_id')
+data.setCell(31, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(31, 3, 155);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call')
+data.setCell(32, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(32, 3, 155);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id')
+data.setCell(33, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(33, 3, 155);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call')
+data.setCell(34, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(34, 3, 154);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Validate_Criteo_SDK_config_app_Call_bundleId_parameter')
+data.setCell(35, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(35, 3, 153);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call')
+data.setCell(36, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(36, 3, 153);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call')
+data.setCell(37, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(37, 3, 153);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call')
+data.setCell(38, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(38, 3, 151);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call')
+data.setCell(39, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(39, 3, 151);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Verify_Today_Details_ad_call_amazon_bid_id')
+data.setCell(40, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(40, 3, 151);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call')
+data.setCell(41, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(41, 3, 150);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call')
+data.setCell(42, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(42, 3, 150);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call')
+data.setCell(43, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(43, 3, 149);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call')
+data.setCell(44, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(44, 3, 149);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call')
+data.setCell(45, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(45, 3, 148);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call')
+data.setCell(46, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(46, 3, 148);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call')
+data.setCell(47, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(47, 3, 147);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call')
+data.setCell(48, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(48, 3, 147);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call')
+data.setCell(49, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(49, 3, 147);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call')
+data.setCell(50, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(50, 3, 145);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call')
+data.setCell(51, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(51, 3, 144);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call')
+data.setCell(52, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(52, 3, 143);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call')
+data.setCell(53, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(53, 3, 142);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'Verify_Hourly3_Details_ad_call_amazon_bid_id')
+data.setCell(54, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(54, 3, 142);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'Verify_Feed3_ad_call_amazon_bid_id')
+data.setCell(55, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(55, 3, 142);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call')
+data.setCell(56, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(56, 3, 141);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call')
+data.setCell(57, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(57, 3, 140);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call')
+data.setCell(58, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(58, 3, 139);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'Verify_Hourly2_Details_ad_call_amazon_bid_id')
+data.setCell(59, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(59, 3, 138);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call')
+data.setCell(60, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(60, 3, 137);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'Verify_Hourly1_Details_ad_call_amazon_bid_id')
+data.setCell(61, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(61, 3, 137);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'Verify_Health_Running_Details_ad_call_amazon_bid_id')
+data.setCell(62, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(62, 3, 137);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call')
+data.setCell(63, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(63, 3, 134);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'Verify_Criteo_SDK_inapp_v2_Call')
+data.setCell(64, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(64, 3, 126);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'Verify_Criteo_SDK_config_app_Call')
+data.setCell(65, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(65, 3, 124);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'Smoke_Test_amazon_aaxSlot_feed3_adcall')
+data.setCell(66, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(66, 3, 121);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'Verify_amazon_aaxSlot_feed2_adcall')
+data.setCell(67, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(67, 3, 118);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'Verify_amazon_aaxSlot_feed1_adCall')
+data.setCell(68, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(68, 3, 116);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'Verifying_amazon_slotId_for_AlertsCenter')
+data.setCell(69, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(69, 3, 106);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad')
+data.setCell(70, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(70, 3, 95);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'Smoke_Test_amazon_aax_Airquality_deatailcard')
+data.setCell(71, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(71, 3, 91);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'Verify_amazon_aaxSlot_feed4_adcall')
+data.setCell(72, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(72, 3, 90);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'Verify_amazon_aax_mapsdetails_adcall')
+data.setCell(73, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(73, 3, 83);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'Verify_amazon_aaxSlot_feed5_adcall')
+data.setCell(74, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(74, 3, 78);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'Smoke_Test_amazon_aax_today_deatailcard')
+data.setCell(75, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(75, 3, 77);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad')
+data.setCell(76, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(76, 3, 75);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'Verify_Feed4_ad_call_amazon_bid_id')
+data.setCell(77, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(77, 3, 74);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'Verify_Feed5_ad_call_amazon_bid_id')
+data.setCell(78, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(78, 3, 73);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'Smoke_Test_amazon_aax_Daily_details_Day1_adcall')
+data.setCell(79, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(79, 3, 73);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'Verify_AQ_Details_ad_call_amazon_bid_id')
+data.setCell(80, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(80, 3, 70);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'Verify_amazon_aax_preload_Hourly2_details_adcall')
+data.setCell(81, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(81, 3, 69);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'Verify_amazon_SlotId_outdoor_details')
+data.setCell(82, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(82, 3, 69);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'Verify_amazon_aax_preload_Hourly1_details_adcall')
+data.setCell(83, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(83, 3, 69);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'Verify_amazon_aax_preload_Hourly_details_adcall')
+data.setCell(84, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(84, 3, 67);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'Verify_amazon_aax_preload_Hourly3_details_adcall')
+data.setCell(85, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(85, 3, 66);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'Verify_amazon_aax_SeasonalHub_details_adcall')
+data.setCell(86, 2, 'twc.Regression.TestCases.Criteo_Amazon_Testcases')
+data.setCell(86, 3, 62);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">twc.Regression.TestCases.Criteo_Amazon_Testcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Validate_Amazon_SDK_adsdk_parameter</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifying_amazon_slotId_for_AlertsCenter</span>
+                <span class="method-start">1210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aaxSlot_feed1_adCall</span>
+                <span class="method-start">1317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aaxSlot_feed2_adcall</span>
+                <span class="method-start">1434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Smoke_Test_amazon_aaxSlot_feed3_adcall</span>
+                <span class="method-start">1553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aaxSlot_feed4_adcall</span>
+                <span class="method-start">1675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aaxSlot_feed5_adcall</span>
+                <span class="method-start">1766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aax_mapsdetails_adcall</span>
+                <span class="method-start">1845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Smoke_Test_amazon_aax_today_deatailcard</span>
+                <span class="method-start">1929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Smoke_Test_amazon_aax_Airquality_deatailcard</span>
+                <span class="method-start">2007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad</span>
+                <span class="method-start">2099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad</span>
+                <span class="method-start">2175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_SlotId_outdoor_details</span>
+                <span class="method-start">2270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aax_preload_Hourly_details_adcall</span>
+                <span class="method-start">2339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aax_preload_Hourly1_details_adcall</span>
+                <span class="method-start">2407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aax_preload_Hourly2_details_adcall</span>
+                <span class="method-start">2476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aax_preload_Hourly3_details_adcall</span>
+                <span class="method-start">2546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_AlertCenter_ad_call_amazon_bid_id</span>
+                <span class="method-start">2612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Smoke_Test_amazon_aax_Daily_details_Day1_adcall</span>
+                <span class="method-start">2842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Feed1_ad_call_amazon_bid_id</span>
+                <span class="method-start">2915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Feed2_ad_call_amazon_bid_id</span>
+                <span class="method-start">3154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Feed3_ad_call_amazon_bid_id</span>
+                <span class="method-start">3369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Feed4_ad_call_amazon_bid_id</span>
+                <span class="method-start">3512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Feed5_ad_call_amazon_bid_id</span>
+                <span class="method-start">3586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Map_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">3660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Today_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">3815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_AQ_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">3967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">4038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Health_Running_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">4194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_amazon_aax_SeasonalHub_details_adcall</span>
+                <span class="method-start">4332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Hourly1_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">4395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Hourly2_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">4533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Hourly3_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">4672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Daily_Details_ad_call_amazon_bid_id</span>
+                <span class="method-start">4815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_config_app_Call</span>
+                <span class="method-start">4975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call</span>
+                <span class="method-start">5100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_Criteo_SDK_config_app_Call_cpId_parameter</span>
+                <span class="method-start">5226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_Criteo_SDK_config_app_Call_bundleId_parameter</span>
+                <span class="method-start">5468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter</span>
+                <span class="method-start">5622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed1_gampad_call</span>
+                <span class="method-start">5785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed1_gampad_call</span>
+                <span class="method-start">5938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed1_gampad_call</span>
+                <span class="method-start">6094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call</span>
+                <span class="method-start">6245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call</span>
+                <span class="method-start">6407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call</span>
+                <span class="method-start">6607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call</span>
+                <span class="method-start">6761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call</span>
+                <span class="method-start">6911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call</span>
+                <span class="method-start">7073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call</span>
+                <span class="method-start">7225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call</span>
+                <span class="method-start">7384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call</span>
+                <span class="method-start">7540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call</span>
+                <span class="method-start">7698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call</span>
+                <span class="method-start">7900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call</span>
+                <span class="method-start">8147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_map_details_gampad_call</span>
+                <span class="method-start">8403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_map_details_gampad_call</span>
+                <span class="method-start">8645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_map_details_gampad_call</span>
+                <span class="method-start">8980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call</span>
+                <span class="method-start">9129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call</span>
+                <span class="method-start">9286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call</span>
+                <span class="method-start">9491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_aq_details_gampad_call</span>
+                <span class="method-start">9636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_aq_details_gampad_call</span>
+                <span class="method-start">9785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_aq_details_gampad_call</span>
+                <span class="method-start">9926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call</span>
+                <span class="method-start">10206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call</span>
+                <span class="method-start">10360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call</span>
+                <span class="method-start">10508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call</span>
+                <span class="method-start">10656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call</span>
+                <span class="method-start">10799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call</span>
+                <span class="method-start">10965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call</span>
+                <span class="method-start">11153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call</span>
+                <span class="method-start">11316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call</span>
+                <span class="method-start">11498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call</span>
+                <span class="method-start">11662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call</span>
+                <span class="method-start">11818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call</span>
+                <span class="method-start">11977 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly_details_gampad_call</span>
+                <span class="method-start">12135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly_details_gampad_call</span>
+                <span class="method-start">12280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly_details_gampad_call</span>
+                <span class="method-start">12428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly1_details_gampad_call</span>
+                <span class="method-start">12576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly1_details_gampad_call</span>
+                <span class="method-start">12711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly1_details_gampad_call</span>
+                <span class="method-start">12849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly2_details_gampad_call</span>
+                <span class="method-start">12991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly2_details_gampad_call</span>
+                <span class="method-start">13148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly2_details_gampad_call</span>
+                <span class="method-start">13287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_hourly3_details_gampad_call</span>
+                <span class="method-start">13450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_hourly3_details_gampad_call</span>
+                <span class="method-start">13594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call</span>
+                <span class="method-start">13741 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

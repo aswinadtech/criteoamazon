@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="twc.Regression.TestCases.Criteo_Amazon_Testcases">
+        <methods>
+          <include name="Verify_AlertCenter_ad_call_amazon_bid_id"/>
+          <include name="Verify_Daily_Details_ad_call_amazon_bid_id"/>
+          <include name="Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_daily_details_gampad_call"/>
+          <include name="Verify_Health_Running_Details_ad_call_amazon_bid_id"/>
+          <include name="Verify_Today_Details_ad_call_amazon_bid_id"/>
+          <include name="Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_daily_details_gampad_call"/>
+          <include name="Verify_Feed3_ad_call_amazon_bid_id"/>
+          <include name="Verify_Feed1_ad_call_amazon_bid_id"/>
+          <include name="Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_daily_details_gampad_call"/>
+          <include name="Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id"/>
+        </methods>
+      </class> <!-- twc.Regression.TestCases.Criteo_Amazon_Testcases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

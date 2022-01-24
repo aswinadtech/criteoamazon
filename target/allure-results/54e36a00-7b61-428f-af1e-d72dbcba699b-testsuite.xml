@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1632982219674" stop="1632982224082" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1632982219781" stop="1632982220731" status="passed">
+            <name>Verify_Criteo_SDK_config_app_Call</name>
+            <description type="text">Verify Criteo SDK config app call</description>
+            <steps>
+                <step start="1632982219806" stop="1632982219807" status="passed">
+                    <name>logStep[****** Criteo SDK config/app call validation Started]</name>
+                    <title>****** Criteo SDK config/app call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982219838" stop="1632982219838" status="passed">
+                    <name>logStep[File Name is : todaycriteoRC.chlsx]</name>
+                    <title>File Name is : todaycriteoRC.chlsx</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982220005" stop="1632982220005" status="passed">
+                    <name>logStep[Successfully Generated XML file from Charles session file!!]</name>
+                    <title>Successfully Generated XML file from Charles session file!!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982220708" stop="1632982220708" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982220727" stop="1632982220727" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Criteo_SDK_config_app_Call"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982219781" stop="1632982220731" status="passed">
+            <name>Verify_Criteo_SDK_config_app_Call</name>
+            <description type="text">Verify Criteo SDK config app call</description>
+            <steps>
+                <step start="1632982219806" stop="1632982219807" status="passed">
+                    <name>logStep[****** Criteo SDK config/app call validation Started]</name>
+                    <title>****** Criteo SDK config/app call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982219838" stop="1632982219838" status="passed">
+                    <name>logStep[File Name is : todaycriteoRC.chlsx]</name>
+                    <title>File Name is : todaycriteoRC.chlsx</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982220005" stop="1632982220005" status="passed">
+                    <name>logStep[Successfully Generated XML file from Charles session file!!]</name>
+                    <title>Successfully Generated XML file from Charles session file!!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982220708" stop="1632982220708" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982220727" stop="1632982220727" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Criteo_SDK_config_app_Call"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982220740" stop="1632982221044" status="passed">
+            <name>Verify_Criteo_SDK_inapp_v2_Call</name>
+            <description type="text">Verify Criteo SDK inapp v2 call</description>
+            <steps>
+                <step start="1632982220742" stop="1632982220742" status="passed">
+                    <name>logStep[****** Criteo SDK inapp/v2 call validation Started]</name>
+                    <title>****** Criteo SDK inapp/v2 call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221031" stop="1632982221031" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221043" stop="1632982221044" status="passed">
+                    <name>logStep[bidder.criteo.com/inapp/v2 call is present in Charles session]</name>
+                    <title>bidder.criteo.com/inapp/v2 call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Criteo_SDK_inapp_v2_Call"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982220740" stop="1632982221044" status="passed">
+            <name>Verify_Criteo_SDK_inapp_v2_Call</name>
+            <description type="text">Verify Criteo SDK inapp v2 call</description>
+            <steps>
+                <step start="1632982220742" stop="1632982220742" status="passed">
+                    <name>logStep[****** Criteo SDK inapp/v2 call validation Started]</name>
+                    <title>****** Criteo SDK inapp/v2 call validation Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221031" stop="1632982221031" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221043" stop="1632982221044" status="passed">
+                    <name>logStep[bidder.criteo.com/inapp/v2 call is present in Charles session]</name>
+                    <title>bidder.criteo.com/inapp/v2 call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Verify_Criteo_SDK_inapp_v2_Call"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982221048" stop="1632982221675" status="passed">
+            <name>Validate_Criteo_SDK_config_app_Call_cpId_parameter</name>
+            <description type="text">Validating 'cpId' parameter of Criteo SDK config app call</description>
+            <steps>
+                <step start="1632982221049" stop="1632982221049" status="passed">
+                    <name>logStep[****** Validating 'cpId' parameter of Criteo SDK config app call]</name>
+                    <title>****** Validating 'cpId' parameter of Criteo SDK config app call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221439" stop="1632982221439" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221445" stop="1632982221445" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221657" stop="1632982221657" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221675" stop="1632982221675" status="passed">
+                    <name>logStep[Custom Parameter :cpId value: B-051673 is matched with the expected value B-051673]</name>
+                    <title>Custom Parameter :cpId value: B-051673 is matched with the expected value B-051673</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_config_app_Call_cpId_parameter"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982221048" stop="1632982221675" status="passed">
+            <name>Validate_Criteo_SDK_config_app_Call_cpId_parameter</name>
+            <description type="text">Validating 'cpId' parameter of Criteo SDK config app call</description>
+            <steps>
+                <step start="1632982221049" stop="1632982221049" status="passed">
+                    <name>logStep[****** Validating 'cpId' parameter of Criteo SDK config app call]</name>
+                    <title>****** Validating 'cpId' parameter of Criteo SDK config app call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221439" stop="1632982221439" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221445" stop="1632982221445" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221657" stop="1632982221657" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221675" stop="1632982221675" status="passed">
+                    <name>logStep[Custom Parameter :cpId value: B-051673 is matched with the expected value B-051673]</name>
+                    <title>Custom Parameter :cpId value: B-051673 is matched with the expected value B-051673</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_config_app_Call_cpId_parameter"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982221679" stop="1632982222101" status="passed">
+            <name>Validate_Criteo_SDK_config_app_Call_bundleId_parameter</name>
+            <description type="text">Validating 'bundleId' parameter of Criteo SDK config app call </description>
+            <steps>
+                <step start="1632982221680" stop="1632982221680" status="passed">
+                    <name>logStep[****** Validating 'bundleId' parameter of Criteo SDK config app call]</name>
+                    <title>****** Validating 'bundleId' parameter of Criteo SDK config app call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221946" stop="1632982221946" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221950" stop="1632982221950" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222096" stop="1632982222096" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222101" stop="1632982222101" status="passed">
+                    <name>logStep[Custom Parameter :bundleId value: com.weather.Weather is matched with the expected value com.weather.Weather]</name>
+                    <title>Custom Parameter :bundleId value: com.weather.Weather is matched with the expected value com.weather.Weather</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_config_app_Call_bundleId_parameter"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982221679" stop="1632982222101" status="passed">
+            <name>Validate_Criteo_SDK_config_app_Call_bundleId_parameter</name>
+            <description type="text">Validating 'bundleId' parameter of Criteo SDK config app call </description>
+            <steps>
+                <step start="1632982221680" stop="1632982221680" status="passed">
+                    <name>logStep[****** Validating 'bundleId' parameter of Criteo SDK config app call]</name>
+                    <title>****** Validating 'bundleId' parameter of Criteo SDK config app call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221946" stop="1632982221946" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982221950" stop="1632982221950" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222096" stop="1632982222096" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222101" stop="1632982222101" status="passed">
+                    <name>logStep[Custom Parameter :bundleId value: com.weather.Weather is matched with the expected value com.weather.Weather]</name>
+                    <title>Custom Parameter :bundleId value: com.weather.Weather is matched with the expected value com.weather.Weather</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_config_app_Call_bundleId_parameter"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982222104" stop="1632982222468" status="passed">
+            <name>Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter</name>
+            <description type="text">Validating 'sdkVersion' parameter of Criteo SDK config app call </description>
+            <steps>
+                <step start="1632982222104" stop="1632982222104" status="passed">
+                    <name>logStep[****** Validating 'sdkVersion' parameter of Criteo SDK config app call]</name>
+                    <title>****** Validating 'sdkVersion' parameter of Criteo SDK config app call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222312" stop="1632982222312" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222316" stop="1632982222316" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222463" stop="1632982222463" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222468" stop="1632982222468" status="passed">
+                    <name>logStep[Custom Parameter :sdkVersion value: 4.4.0 is matched with the expected value 4.4.0]</name>
+                    <title>Custom Parameter :sdkVersion value: 4.4.0 is matched with the expected value 4.4.0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982222104" stop="1632982222468" status="passed">
+            <name>Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter</name>
+            <description type="text">Validating 'sdkVersion' parameter of Criteo SDK config app call </description>
+            <steps>
+                <step start="1632982222104" stop="1632982222104" status="passed">
+                    <name>logStep[****** Validating 'sdkVersion' parameter of Criteo SDK config app call]</name>
+                    <title>****** Validating 'sdkVersion' parameter of Criteo SDK config app call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222312" stop="1632982222312" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222316" stop="1632982222316" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222463" stop="1632982222463" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222468" stop="1632982222468" status="passed">
+                    <name>logStep[Custom Parameter :sdkVersion value: 4.4.0 is matched with the expected value 4.4.0]</name>
+                    <title>Custom Parameter :sdkVersion value: 4.4.0 is matched with the expected value 4.4.0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982222470" stop="1632982223020" status="passed">
+            <name>Validate_Criteo_SDK_Bidder_API_Call_Response_Code</name>
+            <description type="text">Validating Criteo Bidder API (invapp v2) call response code</description>
+            <steps>
+                <step start="1632982222471" stop="1632982222471" status="passed">
+                    <name>logStep[****** Validating Criteo Bidder API (invapp v2) Call Response Code]</name>
+                    <title>****** Validating Criteo Bidder API (invapp v2) Call Response Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222864" stop="1632982222865" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222869" stop="1632982222869" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222869" stop="1632982222869" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call Verification is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223015" stop="1632982223015" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223020" stop="1632982223020" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call response contains response code : 200]</name>
+                    <title>bidder.criteo.com/config/app call response contains response code : 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223020" stop="1632982223020" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call response code validation is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call response code validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Bidder_API_Call_Response_Code"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982222470" stop="1632982223020" status="passed">
+            <name>Validate_Criteo_SDK_Bidder_API_Call_Response_Code</name>
+            <description type="text">Validating Criteo Bidder API (invapp v2) call response code</description>
+            <steps>
+                <step start="1632982222471" stop="1632982222471" status="passed">
+                    <name>logStep[****** Validating Criteo Bidder API (invapp v2) Call Response Code]</name>
+                    <title>****** Validating Criteo Bidder API (invapp v2) Call Response Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222864" stop="1632982222865" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222869" stop="1632982222869" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982222869" stop="1632982222869" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call Verification is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223015" stop="1632982223015" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223020" stop="1632982223020" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call response contains response code : 200]</name>
+                    <title>bidder.criteo.com/config/app call response contains response code : 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223020" stop="1632982223020" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call response code validation is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call response code validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Bidder_API_Call_Response_Code"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982223023" stop="1632982223413" status="passed">
+            <name>Validate_Criteo_SDK_Initialization_API_Call_Response_Code</name>
+            <description type="text">Validating Criteo Initialization API (config app) call response code</description>
+            <steps>
+                <step start="1632982223024" stop="1632982223024" status="passed">
+                    <name>logStep[****** Validating Criteo Initialization API (config app) Call Response Code]</name>
+                    <title>****** Validating Criteo Initialization API (config app) Call Response Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223190" stop="1632982223190" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223195" stop="1632982223195" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223195" stop="1632982223195" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call Verification is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223408" stop="1632982223408" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223413" stop="1632982223413" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call response contains response code : 200]</name>
+                    <title>bidder.criteo.com/config/app call response contains response code : 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223413" stop="1632982223413" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call response code validation is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call response code validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Initialization_API_Call_Response_Code"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982223023" stop="1632982223413" status="passed">
+            <name>Validate_Criteo_SDK_Initialization_API_Call_Response_Code</name>
+            <description type="text">Validating Criteo Initialization API (config app) call response code</description>
+            <steps>
+                <step start="1632982223024" stop="1632982223024" status="passed">
+                    <name>logStep[****** Validating Criteo Initialization API (config app) Call Response Code]</name>
+                    <title>****** Validating Criteo Initialization API (config app) Call Response Code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223190" stop="1632982223190" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223195" stop="1632982223195" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223195" stop="1632982223195" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call Verification is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call Verification is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223408" stop="1632982223408" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223413" stop="1632982223413" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call response contains response code : 200]</name>
+                    <title>bidder.criteo.com/config/app call response contains response code : 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223413" stop="1632982223413" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app :API Call response code validation is successful]</name>
+                    <title>bidder.criteo.com/config/app :API Call response code validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Initialization_API_Call_Response_Code"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982223415" stop="1632982223729" status="passed">
+            <name>Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled</name>
+            <description type="text">Validating Criteo Initialization API (config app) call response parameter 'csmEnabled' value</description>
+            <steps>
+                <step start="1632982223416" stop="1632982223416" status="passed">
+                    <name>logStep[****** Validating csmEnabled parameter value in Criteo Initialization API (config app) Call Response]</name>
+                    <title>****** Validating csmEnabled parameter value in Criteo Initialization API (config app) Call Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223571" stop="1632982223571" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223576" stop="1632982223576" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223723" stop="1632982223723" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223728" stop="1632982223728" status="passed">
+                    <name>logStep[Custom Parameter :csmEnabled value: true is matched with the expected value true]</name>
+                    <title>Custom Parameter :csmEnabled value: true is matched with the expected value true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223728" stop="1632982223728" status="passed">
+                    <name>logStep[Criteo parameter: csmEnabled validation is successful]</name>
+                    <title>Criteo parameter: csmEnabled validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982223415" stop="1632982223729" status="passed">
+            <name>Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled</name>
+            <description type="text">Validating Criteo Initialization API (config app) call response parameter 'csmEnabled' value</description>
+            <steps>
+                <step start="1632982223416" stop="1632982223416" status="passed">
+                    <name>logStep[****** Validating csmEnabled parameter value in Criteo Initialization API (config app) Call Response]</name>
+                    <title>****** Validating csmEnabled parameter value in Criteo Initialization API (config app) Call Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223571" stop="1632982223571" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223576" stop="1632982223576" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223723" stop="1632982223723" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223728" stop="1632982223728" status="passed">
+                    <name>logStep[Custom Parameter :csmEnabled value: true is matched with the expected value true]</name>
+                    <title>Custom Parameter :csmEnabled value: true is matched with the expected value true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223728" stop="1632982223728" status="passed">
+                    <name>logStep[Criteo parameter: csmEnabled validation is successful]</name>
+                    <title>Criteo parameter: csmEnabled validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982223731" stop="1632982224064" status="passed">
+            <name>Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled</name>
+            <description type="text">Validating Criteo Initialization API (config app) call response parameter 'liveBiddingEnabled' value</description>
+            <steps>
+                <step start="1632982223731" stop="1632982223731" status="passed">
+                    <name>logStep[****** Validating liveBiddingEnabled parameter value in Criteo Initialization API (config app) Call Response]</name>
+                    <title>****** Validating liveBiddingEnabled parameter value in Criteo Initialization API (config app) Call Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223896" stop="1632982223896" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223901" stop="1632982223901" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982224059" stop="1632982224059" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982224063" stop="1632982224063" status="passed">
+                    <name>logStep[Custom Parameter :liveBiddingEnabled value: false is matched with the expected value false]</name>
+                    <title>Custom Parameter :liveBiddingEnabled value: false is matched with the expected value false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982224064" stop="1632982224064" status="passed">
+                    <name>logStep[Criteo parameter: liveBiddingEnabled validation is successful]</name>
+                    <title>Criteo parameter: liveBiddingEnabled validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1632982223731" stop="1632982224064" status="passed">
+            <name>Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled</name>
+            <description type="text">Validating Criteo Initialization API (config app) call response parameter 'liveBiddingEnabled' value</description>
+            <steps>
+                <step start="1632982223731" stop="1632982223731" status="passed">
+                    <name>logStep[****** Validating liveBiddingEnabled parameter value in Criteo Initialization API (config app) Call Response]</name>
+                    <title>****** Validating liveBiddingEnabled parameter value in Criteo Initialization API (config app) Call Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223896" stop="1632982223896" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982223901" stop="1632982223901" status="passed">
+                    <name>logStep[bidder.criteo.com/config/app call is present in Charles session]</name>
+                    <title>bidder.criteo.com/config/app call is present in Charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982224059" stop="1632982224059" status="passed">
+                    <name>logStep[bidder.criteo.com  call is present]</name>
+                    <title>bidder.criteo.com  call is present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982224063" stop="1632982224063" status="passed">
+                    <name>logStep[Custom Parameter :liveBiddingEnabled value: false is matched with the expected value false]</name>
+                    <title>Custom Parameter :liveBiddingEnabled value: false is matched with the expected value false</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1632982224064" stop="1632982224064" status="passed">
+                    <name>logStep[Criteo parameter: liveBiddingEnabled validation is successful]</name>
+                    <title>Criteo parameter: liveBiddingEnabled validation is successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="twc.Regression.TestCases.regressionTestCases"/>
+                <label name="testMethod" value="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled"/>
+                <label name="host" value="AswinikumarsMBP.lan"/>
+                <label name="thread" value="3255@AswinikumarsMBP.lan.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
