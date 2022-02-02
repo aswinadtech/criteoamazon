@@ -55,12 +55,8 @@ import twc.Regression.ReadDataFromFile.write_excel_data;
 import twc.Regression.utils.ReadExcelData;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-
-
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
@@ -74,7 +70,7 @@ public class Functions extends Drivers{
 	public static int aaxbidErrorCount = 0;
 	public static boolean isaaxgampadcallexists = false;
 	public static boolean nextGenIMadDisplayed = false;
-	public static String videoIUValue = null;
+	public static String videoIUValue = "iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Fwinter";
 	public static int aaxcallsResponseSize = 0;
 	static int startY;
 	static int endY;
@@ -95,6 +91,10 @@ public class Functions extends Drivers{
 		public static int criteocallsResponseSize = 0;
 		public static List<String> customParamsList = new ArrayList<String>();
 		public static int criteogampadcallcount = 0;
+		public static int criteoHealthArticlesParamCpmCheckStartCount = 0;
+		public static int criteoHealthArticlesParamSizeNUrlCheckStartCount = 0;
+		public static String healthcriteoArticleCheckHappenedSheet = "Test";
+		public static String healthaaxArticleCheckHappenedSheet = "Test";
 	public static void validate_API_Call_With_PubAds_Call(String excel_sheet_name) throws Exception{
 
 		String apicall_results=null;
@@ -5473,7 +5473,7 @@ public static void validate_aax_bid_value_with_gampad_bid_value( String sheetNam
 	DeviceStatus device_status = new DeviceStatus();
 	int Cap = device_status.Device_Status();
 	String[][] data = read_excel_data.exceldataread(sheetName);
-	String slotID =data[12][Cap];
+	String slotID =data[12][1];
 	// String feedCall = readExcelValues.data[18][Cap];
 	String feedCall = null;
 	// "iu=%2F7646%2Fapp_iphone_us%2Fdb_display%2Fhome_screen%2Ftoday";
@@ -5484,7 +5484,7 @@ public static void validate_aax_bid_value_with_gampad_bid_value( String sheetNam
 		feedCall = return_iu_value_of_Feedcall( sheetName);
 	}
 	else {
-		feedCall = data[11][Cap];
+		feedCall = data[11][1];
 	}
 
 	boolean testpass = false;
@@ -7097,8 +7097,7 @@ public static void verifyAAX_SlotId(String sheetName) throws Exception {
 //this retrives amazon bid values from aax calls and gampad calls of
 	// correponding add calls and verifies any one matching.
 	public static void validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value(String sheetName, String cust_param, boolean clearList) throws Exception {
-
-			String[][] data = read_excel_data.exceldataread(sheetName);
+		String[][] data = read_excel_data.exceldataread(sheetName);
 		DeviceStatus device_status = new DeviceStatus();
 		int Cap = device_status.Device_Status();
 		String placementId = null;
@@ -7161,7 +7160,7 @@ public static void verifyAAX_SlotId(String sheetName) throws Exception {
 			 * dailyDetailsDayOfWeek.concat("1"); feedCall = readExcelValues.data[18][Cap];
 			 * feedCall = feedCall.concat("_") + today; }
 			 */else {
-					feedCall = data[11][Cap];
+					feedCall = data[11][1];
 		}
 		boolean testpass = false;
 		int failCount = 0;
@@ -7401,7 +7400,7 @@ public static void verifyAAX_SlotId(String sheetName) throws Exception {
 			logStep("Criteo call " + cust_param + " values validation with " + sheetName + " gampad call is failed");
 			Assert.fail("Criteo call bidding is not successful in all instances for placement id: "+placementId+" ,refer to charles session file for moredetails " );
 		}
-
+		
 	}
 private static List<String> evaluateXPath(Document document, String xpathExpression) throws Exception {
 	// Create XPathFactory object
