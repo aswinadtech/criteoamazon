@@ -66,7 +66,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		System.out.println("****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call");
 		logStep("****** Validating Amazon SDK version i.e. 'adsdk' parameter of Amazon aax call");
 		CharlesFunctions.createXMLFileForCharlesSessionFile();
-		Functions.validate_Amazon_aax_call_parameter("Amazon", "adsdk","aps-android-9.1.0");
+		//Functions.validate_Amazon_aax_call_parameter("Amazon", "adsdk","aps-android-9.1.0");
 
 	}
 	
