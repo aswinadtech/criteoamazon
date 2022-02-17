@@ -158,7 +158,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_amazon_aax_today_deatailcard() throws Exception {
 					System.out.println(
 							"================= Verify amazon aax for today detail adcard Started =========================");
-					Functions.verifyAAX_SlotId("Smoke", "Today");
+					//Functions.verifyAAX_SlotId("Smoke", "Today");
 					System.out.println("================= Verify amazon aax for today detail adcard End=========================");
 				}
 			 
@@ -168,7 +168,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_amazon_aax_Airquality_deatailcard() throws Exception {
 					System.out.println(
 							"================= Verify amazon aax for Air Quality details page Started =========================");
-					Functions.verifyAAX_SlotId("Smoke", "Air Quality(Content)");
+					//Functions.verifyAAX_SlotId("Smoke", "Air Quality(Content)");
 					System.out.println("================= Verify amazon aax for Air Quality detail Page  End=========================");
 				}
 			 
@@ -187,7 +187,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad() throws Exception {
 					System.out.println(
 							"================= verifying amazon aax SlotId for Boat&Beach BigBanner adcall started =========================");
-					Functions.verifyAAX_SlotId("Smoke", "Health(boatAndBeach)");
+					//Functions.verifyAAX_SlotId("Smoke", "Health(boatAndBeach)");
 					System.out.println(
 							"================= verifying amazon SlotId for Boat&Beach BigBanner adcall End =========================");
 				}
