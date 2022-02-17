@@ -168,7 +168,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_amazon_aax_Airquality_deatailcard() throws Exception {
 					System.out.println(
 							"================= Verify amazon aax for Air Quality details page Started =========================");
-					//Functions.verifyAAX_SlotId("Smoke", "Air Quality(Content)");
+					Functions.verifyAAX_SlotId("Smoke", "Air Quality(Content)");
 					System.out.println("================= Verify amazon aax for Air Quality detail Page  End=========================");
 				}
 			 
@@ -177,7 +177,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad() throws Exception {
 					System.out.println(
 							"================= verifying amazon SlotId for Running BigBanner adcall started =========================");
-				Functions.verifyAAX_SlotId("Smoke", "Health(goRun)");
+				//Functions.verifyAAX_SlotId("Smoke", "Health(goRun)");
 					System.out.println(
 							"================= verifying amazon SlotId for Running BigBanner adcall  End =========================");
 				}
