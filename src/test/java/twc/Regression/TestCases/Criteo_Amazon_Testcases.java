@@ -373,7 +373,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Health Boat & Beach Details ad call amazon bid id validation Started");
 			logStep("****** Health Boat & Beach Details ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
+			//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
 		}
 	 
 		@Test(priority = 72, enabled = true)
@@ -385,7 +385,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Health Running Details ad call amazon bid id validation Started");
 			logStep("****** Health Running Details ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
+			//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
 	
 		}
 		@Test(priority = 74, enabled = true)
