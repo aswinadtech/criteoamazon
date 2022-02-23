@@ -148,7 +148,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Verify_amazon_aax_mapsdetails_adcall() throws Exception {
 					System.out.println("================= Verify amazon aax maps detais adcall Started =========================");
 					logStep(" Verifying preload amazon aax for  map details");
-					//Functions.verifyAAX_SlotId("Smoke", "Map");
+					Functions.verifyAAX_SlotId("Smoke", "Map");
 					System.out.println("================= Verify amazon aax maps card preroll adcall End =========================");
 				}
 	 
@@ -158,7 +158,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_amazon_aax_today_deatailcard() throws Exception {
 					System.out.println(
 							"================= Verify amazon aax for today detail adcard Started =========================");
-					//Functions.verifyAAX_SlotId("Smoke", "Today");
+					Functions.verifyAAX_SlotId("Smoke", "Today");
 					System.out.println("================= Verify amazon aax for today detail adcard End=========================");
 				}
 			 
@@ -177,7 +177,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad() throws Exception {
 					System.out.println(
 							"================= verifying amazon SlotId for Running BigBanner adcall started =========================");
-				//Functions.verifyAAX_SlotId("Smoke", "Health(goRun)");
+				Functions.verifyAAX_SlotId("Smoke", "Health(goRun)");
 					System.out.println(
 							"================= verifying amazon SlotId for Running BigBanner adcall  End =========================");
 				}
@@ -187,7 +187,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad() throws Exception {
 					System.out.println(
 							"================= verifying amazon aax SlotId for Boat&Beach BigBanner adcall started =========================");
-					//Functions.verifyAAX_SlotId("Smoke", "Health(boatAndBeach)");
+					Functions.verifyAAX_SlotId("Smoke", "Health(boatAndBeach)");
 					System.out.println(
 							"================= verifying amazon SlotId for Boat&Beach BigBanner adcall End =========================");
 				}
@@ -727,7 +727,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
 		}
 
 		@Test(priority = 210, enabled = true)
@@ -739,7 +739,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out
 					.println("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
 		}
 
 		@Test(priority = 212, enabled = true)
@@ -751,7 +751,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Today", "displayUrl",true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Today", "displayUrl",true);
 		}
 		
 		@Test(priority = 214, enabled = true)
@@ -763,7 +763,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with aq details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter with aq details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","cpm", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","cpm", true);
 		}
 
 		@Test(priority = 216, enabled = true)
@@ -775,7 +775,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call size parameter with aq details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter with aq details call validation Started");
-		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
+		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
 		}
 
 		@Test(priority = 218, enabled = true)
@@ -789,7 +789,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 					"****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
 				
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
 		}
 
 		@Test(priority = 220, enabled = true)
@@ -886,7 +886,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
 		}
 
 		@Test(priority = 234, enabled = true)
@@ -899,7 +899,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call size parameter with Seasonal Hub details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter with Seasonal Hub details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","size", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","size", true);
 		}
 
 		@Test(priority = 236, enabled = true)
@@ -913,7 +913,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call displayUrl parameter with Seasonal Hub details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Seasonal Hub details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","displayUrl", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","displayUrl", true);
 		}
 
 		@Test(priority = 238, enabled = true)
