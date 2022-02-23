@@ -845,7 +845,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
 
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
+			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
 		}
 
 		@Test(priority = 228, enabled = true)
@@ -858,7 +858,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
+			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
 		}
 
 		@Test(priority = 230, enabled = true)
@@ -872,7 +872,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)","displayUrl", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)","displayUrl", true);
 
 		}
 		
