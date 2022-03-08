@@ -265,7 +265,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 		System.out.println("****** AlertCenter ad call amazon bid id validation Started");
 		logStep("****** AlertCenter ad call amazon bid id validation Started");
-		//Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
+		Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
 
 	}
 	
@@ -373,7 +373,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Health Boat & Beach Details ad call amazon bid id validation Started");
 			logStep("****** Health Boat & Beach Details ad call amazon bid id validation Started");
-			//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
+			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
 		}
 	 
 		@Test(priority = 72, enabled = true)
@@ -385,7 +385,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Health Running Details ad call amazon bid id validation Started");
 			logStep("****** Health Running Details ad call amazon bid id validation Started");
-			//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
+			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
 	
 		}
 		@Test(priority = 74, enabled = true)
@@ -499,7 +499,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("==============================================");
 			System.out.println("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
 			logStep("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
-			//Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.6.0");
+			Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.6.0");
 
 		}
 	
@@ -845,7 +845,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
 
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
 		}
 
 		@Test(priority = 228, enabled = true)
@@ -858,7 +858,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
 		}
 
 		@Test(priority = 230, enabled = true)
@@ -872,7 +872,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
-		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)","displayUrl", true);
+		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)","displayUrl", true);
 
 		}
 		
