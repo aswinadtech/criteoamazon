@@ -727,7 +727,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
+			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
 		}
 
 		@Test(priority = 210, enabled = true)
@@ -739,7 +739,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out
 					.println("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
+			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
 		}
 
 		@Test(priority = 212, enabled = true)
@@ -751,7 +751,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println(
 					"****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Today", "displayUrl",true);
+			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Today", "displayUrl",true);
 		}
 		
 		@Test(priority = 214, enabled = true)
@@ -763,7 +763,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with aq details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter with aq details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","cpm", true);
+			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","cpm", true);
 		}
 
 		@Test(priority = 216, enabled = true)
@@ -775,7 +775,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call size parameter with aq details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter with aq details call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Air Quality(Content)", "size", true);
 		}
 
 		@Test(priority = 218, enabled = true)
@@ -789,7 +789,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 					"****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with aq details call validation Started");
 				
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
+			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
 		}
 
 		@Test(priority = 220, enabled = true)
