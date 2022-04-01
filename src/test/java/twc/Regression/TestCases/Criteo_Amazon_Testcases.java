@@ -77,7 +77,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("===========================Aleret Center page Adcal iu====================");
 			System.out.println("****** Alert Center ad test case Started");
 			logStep("****** Alert Center ad test case Started");
-			//Functions.verifyAAX_SlotId("Smoke", "MyAlerts");
+			Functions.verifyAAX_SlotId("Smoke", "MyAlerts");
 		}
 	
 	 @Test(priority = 4, enabled = true)
@@ -187,7 +187,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad() throws Exception {
 					System.out.println(
 							"================= verifying amazon aax SlotId for Boat&Beach BigBanner adcall started =========================");
-					//Functions.verifyAAX_SlotId("Smoke", "Health(boatAndBeach)");
+					Functions.verifyAAX_SlotId("Smoke", "Health(boatAndBeach)");
 					System.out.println(
 							"================= verifying amazon SlotId for Boat&Beach BigBanner adcall End =========================");
 				}
@@ -351,7 +351,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Today Details ad call amazon bid id validation Started");
 			logStep("****** Today Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Today", true);
+		//Functions.validate_aax_bid_value_with_gampad_bid_value("Today", true);
 		}
 		@Test(priority = 68, enabled = true)
 		@Description("Verify AQ Details ad call amazon bid id")
@@ -373,7 +373,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Health Boat & Beach Details ad call amazon bid id validation Started");
 			logStep("****** Health Boat & Beach Details ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
+			//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
 		}
 	 
 		@Test(priority = 72, enabled = true)
