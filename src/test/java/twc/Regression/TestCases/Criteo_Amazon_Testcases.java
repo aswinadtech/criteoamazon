@@ -158,7 +158,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_amazon_aax_today_deatailcard() throws Exception {
 					System.out.println(
 							"================= Verify amazon aax for today detail adcard Started =========================");
-					//Functions.verifyAAX_SlotId("Smoke", "Today");
+					Functions.verifyAAX_SlotId("Smoke", "Today");
 					System.out.println("================= Verify amazon aax for today detail adcard End=========================");
 				}
 			 
@@ -265,7 +265,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 		System.out.println("****** AlertCenter ad call amazon bid id validation Started");
 		logStep("****** AlertCenter ad call amazon bid id validation Started");
-		//Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
+		Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
 
 	}
 	
@@ -351,7 +351,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Today Details ad call amazon bid id validation Started");
 			logStep("****** Today Details ad call amazon bid id validation Started");
-		//Functions.validate_aax_bid_value_with_gampad_bid_value("Today", true);
+		Functions.validate_aax_bid_value_with_gampad_bid_value("Today", true);
 		}
 		@Test(priority = 68, enabled = true)
 		@Description("Verify AQ Details ad call amazon bid id")
@@ -361,7 +361,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** AQ Details ad call amazon bid id validation Started");
 			logStep("****** AQ Details ad call amazon bid id validation Started");
-			//Functions.validate_aax_bid_value_with_gampad_bid_value("Air Quality(Content)", true);
+			Functions.validate_aax_bid_value_with_gampad_bid_value("Air Quality(Content)", true);
 		}
 		
 		@Test(priority = 70, enabled = true)
@@ -373,7 +373,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Health Boat & Beach Details ad call amazon bid id validation Started");
 			logStep("****** Health Boat & Beach Details ad call amazon bid id validation Started");
-			//Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
+			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
 		}
 	 
 		@Test(priority = 72, enabled = true)
