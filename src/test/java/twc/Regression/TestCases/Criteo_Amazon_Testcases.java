@@ -106,8 +106,27 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 					System.out.println("================= Verify amazon aax maps card preroll adcall End =========================");
 				}
 	 
-			 
-			
+			 	@Test(priority = 15, enabled = true)
+	@Description("Verify amazon aax Covid details preload ad call")
+	public void Verify_amazon_aax_preload_Covid_details_adcall() throws Exception {
+		System.out.println("==============================================");
+		System.out
+				.println("=========================== amazon aax Covid details preload ad call ====================");
+		System.out.println("****** amazon aax Covid details preload ad call validation Started");
+		logStep("****** amazon aax Covid details preload ad call validation Started");
+		//Utils.verifyAAX_SlotId("Smoke", "Covid");
+	}
+		
+	
+		@Test(priority = 16, enabled = true)
+	@Description("Validating Google Mobile Ads SDK version of gampad call ")
+	public void Validate_GMA_SDK_version() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** Validating Google Mobile Ads SDK Version i.e. 'js' parameter of gampad call");
+		logStep("Validating Google Mobile Ads SDK Version i.e. 'js' parameter of gampad call");
+		//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "js", properties.getProperty("GMASDKVersion"));
+
+	}
 			 
 			 
 			 @Test(priority = 18, enabled = true)
@@ -120,6 +139,28 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				}
 			
 	 
+	
+		@Test(priority = 250, enabled = true)
+	@Description("Verify amazon video bid id's")
+	public void Verify_amazon_video_adcall_bid_id() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("=========================== amazon video ad call bid id's ====================");
+		System.out.println("****** amazon video ad call bid id validation Started");
+		logStep("****** amazon video ad call bid id validation Started");
+		
+		//Utils.validate_aax_bid_value_with_gampad_bid_value("Smoke", "PreRollVideo", false);
+	}
+
+	@Test(priority = 251, enabled = true)
+	@Description("Validating Google Interactive Media Ads SDK version of Preroll video call ")
+	public void Validate_IMA_SDK_version() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"****** Validating Google Interactive Media Ads SDK version i.e. 'js' parameter of Preroll video call");
+		logStep("Validating Google Interactive Media Ads SDK version i.e. 'js' parameter of Preroll video call");
+		
+
+	}
 			
 			 
 
@@ -233,17 +274,6 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		}
 		
 		
-		@Test(priority = 74, enabled = true)
-		@Description("Verify amazon aax Seasonal Hub Details ad call")
-		public void Verify_amazon_aax_SeasonalHub_details_adcall() throws Exception {
-			System.out.println("==============================================");
-			System.out.println("=========================== amazon aax Seasonal Hub Details ad call ====================");
-
-			System.out.println("****** amazon aax Seasonal Hub Details ad call validation Started");
-			logStep("****** amazon aax Seasonal Hub Details ad call validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("SeasonalHub(Details)", true);
-
-		}
 		@Test(priority = 76, enabled = true)
 		@Description("Verify Hourly1 Details ad call amazon bid id")
 		public void Verify_Hourly1_Details_ad_call_amazon_bid_id() throws Exception {
@@ -416,6 +446,43 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Map", "displayUrl", true);
 		}
 
+	@Test(priority = 208, enabled = true)
+	@Description("Verify cpm parameter of Criteo SDK inapp v2 call with AlertCenter call")
+	public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_AlertCenter_gampad_call() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK invapp v2 call cpm parameter with AlertCenter call====================");
+
+		System.out.println("****** Criteo SDK invapp v2 call cpm parameter with AlertCenter call validation Started");
+		logStep("****** Criteo SDK invapp v2 call cpm parameter with AlertCenter call validation Started");
+		Utils.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("MyAlerts", "cpm", true);
+	}
+
+	@Test(priority = 210, enabled = true)
+	@Description("Verify size parameter of Criteo SDK inapp v2 call with AlertCenter call")
+	public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_AlertCenter_gampad_call() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK invapp v2 call size parameter with AlertCenter call====================");
+
+		System.out.println("****** Criteo SDK invapp v2 call size parameter with AlertCenter call validation Started");
+		logStep("****** Criteo SDK invapp v2 call size parameter with AlertCenter call validation Started");
+		Utils.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("MyAlerts", "size", true);
+	}
+
+	@Test(priority = 212, enabled = true)
+	@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with AlertCenter call")
+	public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_AlertCenter_gampad_call() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK invapp v2 call displayUrl parameter with AlertCenter call====================");
+
+		System.out.println(
+				"****** Criteo SDK invapp v2 call displayUrl parameter with AlertCenter call validation Started");
+		logStep("****** Criteo SDK invapp v2 call displayUrl parameter with AlertCenter call validation Started");
+		Utils.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("MyAlerts", "displayUrl",
+				true);
+	}
 		
 		
 		@Test(priority = 214, enabled = true)
