@@ -93,53 +93,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 		}
 	 
-	 @Test(priority = 6, enabled = true)
-		@Description("Verifying amazon  Slot Id for feed2 ad call")
-		public void Verify_amazon_aaxSlot_feed2_adcall() throws Exception {
-			System.out.println(
-					"================= Verify amazon aax slot  Id for feed2 adcall testcase Started =========================");
-			logStep(" Verifying amazon aax slot Id for feed2");
-			Functions.verifyAAX_SlotId("Smoke", "Feed2");
-			System.out.println(
-					"================= Verify amazon aax slot Id for feed2l adcall testcase End =========================");
-		}
-
-
-		@Test(priority = 8, enabled = true)
-		@Description("Verifying amazon  Slot Id for feed3 ad call")
-		public void Smoke_Test_amazon_aaxSlot_feed3_adcall() throws Exception {
-			System.out.println(
-					"================= Verify amazon aax slot  Id for feed3 adcall testcase Started =========================");
-			logStep(" Verifying amazon aax slot Id for feed3");
-			Functions.verifyAAX_SlotId("Smoke", "Feed3");
-			System.out.println(
-					"================= Verify amazon aax slot Id for feed3  adcall testcase End =========================");
-		}
-
-		
-		 @Test(priority = 10, enabled = true)
-			@Description("Verifying amazon  Slot Id for feed4 ad call")
-			public void Verify_amazon_aaxSlot_feed4_adcall() throws Exception {
-				System.out.println(
-						"================= Verify amazon aax slot  Id for feed4 adcall testcase Started =========================");
-				logStep(" Verifying amazon aax slot Id for feed4");
-				Functions.verifyAAX_SlotId("Smoke", "Feed4");
-				System.out.println(
-						"================= Verify amazon aax slot Id for feed4 adcall testcase End =========================");
-			}
-		 
-		 @Test(priority = 12, enabled = true)
-			@Description("Verifying amazon  Slot Id for feed4 ad call")
-			public void Verify_amazon_aaxSlot_feed5_adcall() throws Exception {
-				System.out.println(
-						"================= Verify amazon aax slot  Id for feed5 adcall testcase Started =========================");
-				logStep(" Verifying amazon aax slot Id for feed4");
-				Functions.verifyAAX_SlotId("Smoke", "Feed5");
-				System.out.println(
-						"================= Verify amazon aax slot Id for feed5 adcall testcase End =========================");
-			}
-	 
-		 
+	
 			
 			
 			
@@ -153,14 +107,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				}
 	 
 			 
-			 @Test(priority =16, enabled = true)
-				@Description("Verifying amazon aax for today details card")
-				public void Smoke_Test_amazon_aax_today_deatailcard() throws Exception {
-					System.out.println(
-							"================= Verify amazon aax for today detail adcard Started =========================");
-					Functions.verifyAAX_SlotId("Smoke", "Today");
-					System.out.println("================= Verify amazon aax for today detail adcard End=========================");
-				}
+			
 			 
 			 
 			 @Test(priority = 18, enabled = true)
@@ -171,36 +118,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 					//Functions.verifyAAX_SlotId("Smoke", "Air Quality(Content)");
 					System.out.println("================= Verify amazon aax for Air Quality detail Page  End=========================");
 				}
-			 
-			 @Test(priority = 20, enabled = true)
-				@Description("Verifying amazon slot Id for Running Bigbanner ad")
-				public void Smoke_Test_Verify_amazon_SlotId_Running_Bigbanner_ad() throws Exception {
-					System.out.println(
-							"================= verifying amazon SlotId for Running BigBanner adcall started =========================");
-				Functions.verifyAAX_SlotId("Smoke", "Health(goRun)");
-					System.out.println(
-							"================= verifying amazon SlotId for Running BigBanner adcall  End =========================");
-				}
-			 
-			 @Test(priority = 22, enabled = true)
-				@Description("Verifying amazon slot Id  for Boat&Beach Bigbanner ad")
-				public void Verify_amazon_SlotId_Boat_Beach_Bigbanner_ad() throws Exception {
-					System.out.println(
-							"================= verifying amazon aax SlotId for Boat&Beach BigBanner adcall started =========================");
-					Functions.verifyAAX_SlotId("Smoke", "Health(boatAndBeach)");
-					System.out.println(
-							"================= verifying amazon SlotId for Boat&Beach BigBanner adcall End =========================");
-				}
-			 
-			 @Test(priority = 24, enabled = true)
-				@Description("Verifying amazon slot Id for Outdoor details page")
-				public void Verify_amazon_SlotId_outdoor_details() throws Exception {
-					System.out.println(
-							"================= verifying amazon SlotId for oudoor details adcall started =========================");
-					Functions.verifyAAX_SlotId("Smoke", "SeasonalHub(Details)");
-					System.out.println(
-							"================= verifying amazon SlotId for outdoor details adcall  End =========================");
-				}
+			
 	 
 			
 			 
@@ -289,48 +207,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		  Functions.validate_aax_bid_value_with_gampad_bid_value("Feed1", true);
 			
 		}
-	     @Test(priority = 56, enabled = true)
-	 	@Description("Verify Feed2 ad call amazon bid id")
-	 	public void Verify_Feed2_ad_call_amazon_bid_id() throws Exception {
-	 		System.out.println("==============================================");
-	 		System.out.println("=========================== Feed2 ad call amazon bid id ====================");
-	 		System.out.println("****** Feed2 ad call amazon bid id validation Started");
-	 		logStep("****** Feed2 ad call amazon bid id validation Started");
-	 		Functions.validate_aax_bid_value_with_gampad_bid_value("Feed2", true);
-	 	}
-		
-	     @Test(priority = 58, enabled = true)
-	 	@Description("Verify Feed3 ad call amazon bid id")
-	 	public void Verify_Feed3_ad_call_amazon_bid_id() throws Exception {
-	 		System.out.println("==============================================");
-	 		System.out.println("=========================== Feed3 ad call amazon bid id ====================");
-
-	 		System.out.println("****** Feed3 ad call amazon bid id validation Started");
-	 		logStep("****** Feed3 ad call amazon bid id validation Started");
-	 		Functions.validate_aax_bid_value_with_gampad_bid_value( "Feed3", true);
-	 	}
-	 
-	     
-	 	@Test(priority = 60, enabled = true)
-		@Description("Verify Feed4 ad call amazon bid id")
-		public void Verify_Feed4_ad_call_amazon_bid_id() throws Exception {
-			System.out.println("==============================================");
-			System.out.println("=========================== Feed4 ad call amazon bid id ====================");
-			System.out.println("****** Feed4 ad call amazon bid id validation Started");
-			logStep("****** Feed4 ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("Feed4", true);
-		}
-		
-	 	@Test(priority = 62, enabled = true)
-		@Description("Verify Feed5 ad call amazon bid id")
-		public void Verify_Feed5_ad_call_amazon_bid_id() throws Exception {
-			System.out.println("==============================================");
-			System.out.println("=========================== Feed5 ad call amazon bid id ====================");
-
-			System.out.println("****** Feed5 ad call amazon bid id validation Started");
-			logStep("****** Feed5 ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("Feed5", true);
-		}
+	    
 	 	
 	 	@Test(priority = 64, enabled = true)
 		@Description("Verify Map Details ad call amazon bid id")
@@ -343,16 +220,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			Functions.validate_aax_bid_value_with_gampad_bid_value("Map", true);
 		}
 		
-		@Test(priority = 66, enabled = true)
-		@Description("Verify Today Details ad call amazon bid id")
-		public void Verify_Today_Details_ad_call_amazon_bid_id() throws Exception {
-			System.out.println("==============================================");
-			System.out.println("=========================== Today Details ad call amazon bid id ====================");
-
-			System.out.println("****** Today Details ad call amazon bid id validation Started");
-			logStep("****** Today Details ad call amazon bid id validation Started");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Today", true);
-		}
+	
 		@Test(priority = 68, enabled = true)
 		@Description("Verify AQ Details ad call amazon bid id")
 		public void Verify_AQ_Details_ad_call_amazon_bid_id() throws Exception {
@@ -364,30 +232,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			Functions.validate_aax_bid_value_with_gampad_bid_value("Air Quality(Content)", true);
 		}
 		
-		@Test(priority = 70, enabled = true)
-		@Description("Verify Health Boat & Beach Details ad call amazon bid id")
-		public void Verify_Health_BoatAndBeach_Details_ad_call_amazon_bid_id() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Health Boat & Beach Details ad call amazon bid id ====================");
-
-			System.out.println("****** Health Boat & Beach Details ad call amazon bid id validation Started");
-			logStep("****** Health Boat & Beach Details ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(boatAndBeach)", true);
-		}
-	 
-		@Test(priority = 72, enabled = true)
-		@Description("Verify Health Running Details ad call amazon bid id")
-		public void Verify_Health_Running_Details_ad_call_amazon_bid_id() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Health Running Details ad call amazon bid id ====================");
-
-			System.out.println("****** Health Running Details ad call amazon bid id validation Started");
-			logStep("****** Health Running Details ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value("Health(goRun)", true);
-	
-		}
+		
 		@Test(priority = 74, enabled = true)
 		@Description("Verify amazon aax Seasonal Hub Details ad call")
 		public void Verify_amazon_aax_SeasonalHub_details_adcall() throws Exception {
@@ -536,154 +381,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed1", "displayUrl",true);
 		}
 		
-		@Test(priority = 178, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Feed2 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed2_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with  Feed2 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed2 validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed2 call validation Started");
-
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "cpm", true);
-		}
-
-		@Test(priority = 180, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with Feed2 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed2_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with Feed2 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed2 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with Feed2 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "size", true);
-		}
-
-		@Test(priority = 182, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Feed2 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed2_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with Feed2 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed2 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed2 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed2", "displayUrl",true);
-		}
-	
-		@Test(priority = 184, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Feed3 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed3_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with  Feed3 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed3 validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed3 call validation Started");
-
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "cpm", true);
-		}
-
-		@Test(priority = 186, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with Feed3 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed3_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with Feed3 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed3 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with Feed3 call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "size", true);
-		}
-
-		@Test(priority = 188, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Feed3 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed3_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with Feed3 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed3 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed3 call validation Started");
-			
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed3", "displayUrl",true);
-		}
-
-		@Test(priority = 190, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Feed4 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed4_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with  Feed4 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed4 validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed4 call validation Started");
-
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed4", "cpm", true);
-		}
-
-		@Test(priority = 192, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with Feed4 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed4_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with Feed4 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed4 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with Feed4 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed4", "size", true);
-		}
-
-		@Test(priority = 194, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Feed4 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed4_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with Feed4 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed4 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed4 call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed4", "displayUrl",true);
-		}
 		
-
-		@Test(priority = 196, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Feed5 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Feed5_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with  Feed5 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with  Feed5 validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter with Feed5 call validation Started");
-
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed5", "cpm", true);
-		}
-
-		@Test(priority = 198, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with Feed5 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Feed5_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with Feed5 call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call size parameter with Feed5 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with Feed5 call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Feed5", "size", true);
-		}
-
-		@Test(priority = 200, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Feed5 call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Feed5_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with Feed5 call====================");
-			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter with Feed5 call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Feed5 call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Feed5", "displayUrl",true);
-		}
 		
 		@Test(priority = 202, enabled = true)
 		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Map Details call")
@@ -718,41 +416,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Map", "displayUrl", true);
 		}
 
-		@Test(priority = 208, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Today Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_today_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with Today details call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter with Today Details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "cpm", true);
-		}
-
-		@Test(priority = 210, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with Today Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_today_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with Today details call====================");
-			System.out
-					.println("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with Today details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Today", "size", true);
-		}
-
-		@Test(priority = 212, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Today Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_today_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with Today details call====================");
-			System.out.println(
-					"****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Today details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Today", "displayUrl",true);
-		}
+		
 		
 		@Test(priority = 214, enabled = true)
 		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with AQ Details call")
@@ -792,129 +456,8 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Air Quality(Content)","displayUrl", true);
 		}
 
-		@Test(priority = 220, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with boatAndBeach Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_boatAndBeach_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with boatAndBeach Details call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call cpm parameter of boatAndBeach Details validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter of boatAndBeach Details validation Started");
-
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","cpm", true);
-		}
-
-		@Test(priority = 222, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with boatAndBeach Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_boatAndBeach_details_gampad_call()
-				throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with boatAndBeach Details call====================");
-
-			System.out.println(
-					"****** Criteo SDK invapp v2 call size parameter with boatAndBeach Details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with boatAndBeach Details call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(boatAndBeach)","size", true);
-		}
-
-		@Test(priority = 224, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with boatAndBeach Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_boatAndBeach_details_gampad_call()
-				throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with boatAndBeach Details call====================");
-
-			System.out.println(
-					"****** Criteo SDK invapp v2 call displayUrl parameter with boatAndBeach Details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with boatAndBeach Details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(boatAndBeach)","displayUrl", true);
-		}
-
-
-
-		@Test(priority = 226, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Running Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Running_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with Running Details call====================");
-
-			System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter of Running Details validation Started");
-
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value( "Health(goRun)", "cpm",true);
-		}
-
-		@Test(priority = 228, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with Running Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Running_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with Running Details call====================");
-
-			System.out.println(
-					"****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with Running Details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)", "size",true);
-		}
-
-		@Test(priority = 230, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Running Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Running_details_gampad_call()
-				throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with Running Details call====================");
-
-			System.out.println(
-					"****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Running Details call validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Health(goRun)","displayUrl", true);
-
-		}
 		
-		@Test(priority = 232, enabled = true)
-		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Seasonal Hub Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_SeasonalHub_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call====================");
-
-			System.out.println(
-					"****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call cpm parameter with Seasonal Hub details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)", "cpm", true);
-		}
-
-		@Test(priority = 234, enabled = true)
-		@Description("Verify size parameter of Criteo SDK inapp v2 call with Seasonal Hub Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_SeasonalHub_details_gampad_call() throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call size parameter with Seasonal Hub details call====================");
-
-			System.out.println(
-					"****** Criteo SDK invapp v2 call size parameter with Seasonal Hub details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call size parameter with Seasonal Hub details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","size", true);
-		}
-
-		@Test(priority = 236, enabled = true)
-		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Seasonal Hub Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_SeasonalHub_details_gampad_call()
-				throws Exception {
-			System.out.println("==============================================");
-			System.out.println(
-					"=========================== Criteo SDK invapp v2 call displayUrl parameter with Seasonal Hub details call====================");
-
-			System.out.println(
-					"****** Criteo SDK invapp v2 call displayUrl parameter with Seasonal Hub details call validation Started");
-			logStep("****** Criteo SDK invapp v2 call displayUrl parameter with Seasonal Hub details call validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("SeasonalHub(Details)","displayUrl", true);
-		}
+		
 
 		@Test(priority = 238, enabled = true)
 		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Daily Details call")
