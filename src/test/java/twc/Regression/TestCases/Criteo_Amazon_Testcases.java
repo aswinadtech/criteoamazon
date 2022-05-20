@@ -680,13 +680,43 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		}
 		@Test(priority = 268, enabled = true)
 		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly3 Details call")
-		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_hourly3_details_gampad_call()
+		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Hourly3_details_gampad_call()
 				throws Exception {
 			System.out.println("==============================================");
 			System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
 			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
 			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "displayUrl",true);
+		}
+	
+		@Test(priority = 280, enabled = true)
+		@Description("Verify cpm parameter of Criteo SDK inapp v2 call with Covid Details call")
+		public void Verify_Criteo_SDK_inapp_v2_Call_cpm_parameter_with_Covid_details_gampad_call() throws Exception {
+
+			System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
+			logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
+		    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Covid", "cpm", true);
+		}
+
+		@Test(priority = 282, enabled = true)
+		@Description("Verify size parameter of Criteo SDK inapp v2 call with Covid Details call")
+		public void Verify_Criteo_SDK_inapp_v2_Call_size_parameter_with_Covid_details_gampad_call() throws Exception {
+			System.out.println("==============================================");
+			System.out.println("=========================== Criteo SDK invapp v2 call size parameter ====================");
+
+			System.out.println("****** Criteo SDK invapp v2 call size parameter of CovidDetails validation Started");
+			logStep("****** Criteo SDK invapp v2 call size parameter of Covid Details validation Started");
+		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Covid", "size", true);
+		}
+		@Test(priority = 284, enabled = true)
+		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Covid Details call")
+		public void Verify_Criteo_SDK_inapp_v2_Call_displayUrl_parameter_with_Covid_details_gampad_call()
+				throws Exception {
+			System.out.println("==============================================");
+			System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
+			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Covid Details validation Started");
+			logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Covid Details validation Started");
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Covid", "displayUrl",true);
 		}
 		
 		
