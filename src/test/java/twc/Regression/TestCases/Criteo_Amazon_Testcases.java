@@ -124,7 +124,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		System.out.println("==============================================");
 		System.out.println("****** Validating Google Mobile Ads SDK Version i.e. 'js' parameter of gampad call");
 		logStep("Validating Google Mobile Ads SDK Version i.e. 'js' parameter of gampad call");
-		//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "js", properties.getProperty("GMASDKVersion"));
+		Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "js", properties.getProperty("GMASDKVersion"));
 
 	}
 			 
@@ -134,7 +134,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 				public void Smoke_Test_amazon_aax_Airquality_deatailcard() throws Exception {
 					System.out.println(
 							"================= Verify amazon aax for Air Quality details page Started =========================");
-					//Functions.verifyAAX_SlotId("Smoke", "Air Quality(Content)");
+					Functions.verifyAAX_SlotId("Smoke", "Air Quality(Content)");
 					System.out.println("================= Verify amazon aax for Air Quality detail Page  End=========================");
 				}
 			
@@ -148,7 +148,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		System.out.println("****** amazon video ad call bid id validation Started");
 		logStep("****** amazon video ad call bid id validation Started");
 		
-		//Utils.validate_aax_bid_value_with_gampad_bid_value("Smoke", "PreRollVideo", false);
+		Utils.validate_aax_bid_value_with_gampad_bid_value("Smoke", "PreRollVideo", false);
 	}
 
 	@Test(priority = 251, enabled = true)
@@ -224,7 +224,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 		System.out.println("****** AlertCenter ad call amazon bid id validation Started");
 		logStep("****** AlertCenter ad call amazon bid id validation Started");
-		//Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
+		Functions.validate_aax_bid_value_with_gampad_bid_value("MyAlerts", true);
 
 	}
 	
@@ -633,7 +633,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly2 Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly2 Details validation Started");
-		   // Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "cpm", true);
+		   Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "cpm", true);
 		}
 
 		@Test(priority = 260, enabled = true)
@@ -644,7 +644,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter of Hourly2 Details validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "size", true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "size", true);
 		}
 		@Test(priority = 262, enabled = true)
 		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly2 Details call")
@@ -654,7 +654,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
 			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly2 Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly2 Details validation Started");
-			//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "displayUrl",true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly2", "displayUrl",true);
 		}
 												
 												
