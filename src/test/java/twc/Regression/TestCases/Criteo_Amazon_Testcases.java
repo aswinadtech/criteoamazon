@@ -245,7 +245,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("=========================== Feed1 ad call amazon bid id ====================");
 			System.out.println("****** Feed1 ad call amazon bid id validation Started");
 			logStep("****** Feed1 ad call amazon bid id validation Started");
-		  Functions.validate_aax_bid_value_with_gampad_bid_value("Feed1", true);
+		 // Functions.validate_aax_bid_value_with_gampad_bid_value("Feed1", true);
 			
 		}
 	    
