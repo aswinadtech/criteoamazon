@@ -124,7 +124,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		System.out.println("==============================================");
 		System.out.println("****** Validating Google Mobile Ads SDK Version i.e. 'js' parameter of gampad call");
 		logStep("Validating Google Mobile Ads SDK Version i.e. 'js' parameter of gampad call");
-		Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "js", properties.getProperty("GMASDKVersion"));
+		//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "js", properties.getProperty("GMASDKVersion"));
 
 	}
 			 
