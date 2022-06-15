@@ -305,7 +305,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Hourly1 Details ad call amazon bid id validation Started");
 			logStep("****** Hourly3 Details ad call amazon bid id validation Started");
-			Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourly3", true);
+			Functions.validate_aax_bid_value_with_gampad_bid_value( "Hourrly3", true);
 		}
 		
 		
@@ -665,7 +665,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call cpm parameter of Hourly3 Details validation Started");
-		    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "cpm", true);
+		    Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourrly3", "cpm", true);
 		}
 
 		@Test(priority = 266, enabled = true)
@@ -676,7 +676,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 
 			System.out.println("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call size parameter of Hourly3 Details validation Started");
-		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "size", true);
+		Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourrly3", "size", true);
 		}
 		@Test(priority = 268, enabled = true)
 		@Description("Verify displayUrl parameter of Criteo SDK inapp v2 call with Hourly3 Details call")
@@ -686,7 +686,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("=========================== Criteo SDK invapp v2 call displayUrl parameter ====================");
 			System.out.println("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
 			logStep("****** Criteo SDK invapp v2 call displayUrl parameter of Hourly3 Details validation Started");
-			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourly3", "displayUrl",true);
+			Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("Hourrly3", "displayUrl",true);
 		}
 	
 		@Test(priority = 280, enabled = true)
