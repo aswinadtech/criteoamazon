@@ -148,7 +148,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		System.out.println("****** amazon video ad call bid id validation Started");
 		logStep("****** amazon video ad call bid id validation Started");
 		
-		//Functions.validate_aax_bid_value_with_gampad_bid_value("Smoke", "PreRollVideo", false);
+		Functions.validate_aax_bid_value_with_gampad_bid_value("Smoke", "PreRollVideo", false);
 	}
 
 	@Test(priority = 251, enabled = true)
@@ -374,7 +374,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 			System.out.println("==============================================");
 			System.out.println("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
 			logStep("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
-			Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.6.0");
+			Functions.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.6.1");
 
 		}
 	
