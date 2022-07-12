@@ -148,7 +148,8 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		System.out.println("****** amazon video ad call bid id validation Started");
 		logStep("****** amazon video ad call bid id validation Started");
 		//Assert.fail("getting empty response value in videos aax call");
-		Functions.validate_aax_bid_value_with_gampad_bid_value("Smoke", "PreRollVideo");
+		Functions.validate_aax_bid_value_with_gampad_bid_value( "PreRollVideo", true);
+		
 	}
 
 	@Test(priority = 251, enabled = true)
