@@ -481,8 +481,7 @@ public class Criteo_Amazon_Testcases extends TwcAndroidBaseTest{
 		System.out.println(
 				"****** Criteo SDK invapp v2 call displayUrl parameter with AlertCenter call validation Started");
 		logStep("****** Criteo SDK invapp v2 call displayUrl parameter with AlertCenter call validation Started");
-		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("MyAlerts", "displayUrl",
-				true);
+		//Functions.validate_Criteo_SDK_inapp_v2_call_param_value_with_gampad_param_value("MyAlerts", "displayUrl", true);
 	}
 		
 		
